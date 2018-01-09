@@ -122,7 +122,7 @@ public class MainActivityNew extends AppCompatActivity {
 
         if (NetworkUtil.getConnectivityStatus(MainActivityNew.this) > 0 ){ // Connect
             System.out.println("Connect");
-            postFile();
+//            postFile();
         } else {
             System.out.println("No connection");
         }
