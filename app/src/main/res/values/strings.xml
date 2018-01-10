@@ -67,4 +67,5 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
     <string name="show_db">Show DB</string>
+    <string name="sims_info">sims info</string>
 </resources>

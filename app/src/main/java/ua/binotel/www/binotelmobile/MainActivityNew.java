@@ -20,10 +20,14 @@ import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.telephony.SubscriptionInfo;
+import android.telephony.SubscriptionManager;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -133,6 +137,22 @@ public class MainActivityNew extends AppCompatActivity {
                 showMessage("Calls", message.toString());
             }
         };
+
+        if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_PHONE_STATE)
+                != PackageManager.PERMISSION_GRANTED) {
+
+
+
+            /*String getSimOperatorName = tMgr.getLine1Number();
+            String getDeviceId = tMgr.getDeviceId();
+
+
+            Toast.makeText(context, "getDeviceId: " + getDeviceId,Toast.LENGTH_SHORT).show();*/
+        }
+
+
+
+
 
 //        getFileName("s/d/f/3/0/d20180104174432p5433.3gp");
 //        myDb.addCall(new Call("Павло Полуботок", "0965532211", 1515069143, 1515069143));
@@ -314,6 +334,23 @@ public class MainActivityNew extends AppCompatActivity {
         final Activity currentActivity = this;
         String mess;
         switch (item.getItemId()) {
+            case R.id.menu_sim_info:
+                StringBuffer simsInfo = new StringBuffer();
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP_MR1) {
+                    SubscriptionManager subscriptionManager = SubscriptionManager.from(getApplicationContext());
+                    List<SubscriptionInfo> subsInfoList = subscriptionManager.getActiveSubscriptionInfoList();
+                    int i = 1;
+                    for (SubscriptionInfo subscriptionInfo : subsInfoList) {
+                        String info = subscriptionInfo.toString();
+                        simsInfo.append("SIM " + i + ": " + info + "\n");
+                        i ++;
+                    }
+                    showMessage("Info about your SIMs", simsInfo.toString() );
+                    break;
+                } else {
+                    showMessage("you have only one SIM", "");
+                    break;
+                }
             case R.id.menu_db:
                 Cursor res = myDb.getAllData();
 

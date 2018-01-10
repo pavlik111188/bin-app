@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
 import android.telephony.CellInfo;
 import android.telephony.TelephonyManager;
@@ -22,20 +23,27 @@ public class MyPhoneReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        TelephonyManager tMgr = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
+//        TelephonyManager tMgr = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
         TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+
+
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_PHONE_STATE)
                 != PackageManager.PERMISSION_GRANTED) {
-//            String getSimOperatorName = tMgr.getSimOperatorName();
+            /*String getSimOperatorName = tMgr.getLine1Number();
+            String getDeviceId = tMgr.getDeviceId();
 
-//            Toast.makeText(context, "getSimOperatorName: " + getSimOperatorName,Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "getDeviceId: " + getDeviceId,Toast.LENGTH_SHORT).show();*/
         }
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
 //            List<CellInfo> mPhoneNumber = tm.getAllCellInfo();
 //            Toast.makeText(context, "getSimOperatorName: " + mPhoneNumber,Toast.LENGTH_SHORT).show();
         }
+        String getLine1Number = tm.getLine1Number();
+//        String getDeviceId = tMgr.getDeviceId();
 
+//        Toast.makeText(context, "getDeviceId: " + getDeviceId,Toast.LENGTH_SHORT).show();
+//        Toast.makeText(context, "getSimOperatorName: " + getLine1Number,Toast.LENGTH_LONG).show();
         phoneNumber = intent.getStringExtra(Intent.EXTRA_PHONE_NUMBER);
         String extraState = intent.getStringExtra(TelephonyManager.EXTRA_STATE);
 

@@ -37,4 +37,9 @@
         android:icon="@drawable/ic_computer_black_24dp"
         android:orderInCategory="100"
         android:title="@string/show_db"/>
+    <item
+        android:id="@+id/menu_sim_info"
+        android:icon="@drawable/ic_computer_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/sims_info"/>
 </menu>
