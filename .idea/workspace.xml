@@ -13,34 +13,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a44cfcc-bd4e-4dbe-ae8c-31042b8a8c2e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_animated_vector_drawable_24_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_24_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_design_24_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_24_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_24_1_1_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_24_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_vector_drawable_24_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_github_orhanobut_logger_1_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_koushikdutta_async_androidasync_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_luffykou_android_common_utils_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/DualsimBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/NormalDualSim.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/QualcommDualSim.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/SamsungDualSim.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="Calls from a mobile phone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1034,75 +1025,98 @@
       <file leaf-file-name="MainActivityNew.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="176" column="115" lean-forward="false" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="115" />
+            <state relative-caret-position="272">
+              <caret line="385" column="69" lean-forward="false" selection-start-line="385" selection-start-column="69" selection-end-line="385" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8463#8803#0" expanded="true" />
-                <element signature="e#8802#8803#0" expanded="true" />
-                <element signature="e#8832#9250#0" expanded="true" />
-                <element signature="e#9249#9250#0" expanded="true" />
-                <element signature="e#10368#11351#0" expanded="true" />
-                <element signature="e#11350#11351#0" expanded="true" />
-                <element signature="e#11709#11729#0" expanded="true" />
-                <element signature="e#11730#11751#0" expanded="true" />
-                <element signature="e#11823#11824#0" expanded="true" />
-                <element signature="e#11878#11879#0" expanded="true" />
-                <element signature="e#11950#11951#0" expanded="true" />
-                <element signature="e#12005#12006#0" expanded="true" />
-                <element signature="e#15454#15474#0" expanded="true" />
-                <element signature="e#15512#15534#0" expanded="true" />
-                <element signature="e#15579#15606#0" expanded="true" />
-                <element signature="e#15640#15954#0" expanded="true" />
-                <element signature="e#15953#15954#0" expanded="true" />
-                <element signature="e#16143#16195#0" expanded="true" />
-                <element signature="e#16494#16545#0" expanded="true" />
-                <element signature="e#17379#17411#0" expanded="true" />
-                <element signature="e#17449#17483#0" expanded="true" />
-                <element signature="e#17528#17558#0" expanded="true" />
-                <element signature="e#17592#18151#0" expanded="true" />
-                <element signature="e#18150#18151#0" expanded="true" />
-                <element signature="e#18196#18225#0" expanded="true" />
-                <element signature="e#18259#18573#0" expanded="true" />
-                <element signature="e#18572#18573#0" expanded="true" />
-                <element signature="e#19808#19879#0" expanded="true" />
-                <element signature="e#20099#20527#0" expanded="true" />
-                <element signature="e#20526#20527#0" expanded="true" />
-                <element signature="e#20772#20797#0" expanded="true" />
-                <element signature="e#20941#20978#0" expanded="true" />
-                <element signature="e#21004#21230#0" expanded="true" />
-                <element signature="e#21229#21230#0" expanded="true" />
-                <element signature="e#21531#21601#0" expanded="true" />
-                <element signature="e#21745#21782#0" expanded="true" />
-                <element signature="e#21808#22120#0" expanded="true" />
-                <element signature="e#22119#22120#0" expanded="true" />
-                <element signature="e#22204#22243#0" expanded="true" />
-                <element signature="e#22269#22773#0" expanded="true" />
-                <element signature="e#22772#22773#0" expanded="true" />
-                <element signature="e#22856#22893#0" expanded="true" />
-                <element signature="e#22919#23145#0" expanded="true" />
-                <element signature="e#23144#23145#0" expanded="true" />
-                <element signature="e#24041#24049#0" expanded="true" />
-                <element signature="e#24113#24121#0" expanded="true" />
-                <element signature="e#24633#27569#0" expanded="true" />
-                <element signature="e#25186#25194#0" expanded="true" />
-                <element signature="e#26224#27277#0" expanded="true" />
-                <element signature="e#27276#27277#0" expanded="true" />
-                <element signature="e#27349#27541#0" expanded="true" />
-                <element signature="e#27540#27541#0" expanded="true" />
-                <element signature="e#27568#27569#0" expanded="true" />
-                <element signature="e#27580#27609#0" expanded="false" />
+                <element signature="e#8345#8685#0" expanded="true" />
+                <element signature="e#8684#8685#0" expanded="true" />
+                <element signature="e#8714#9132#0" expanded="true" />
+                <element signature="e#9131#9132#0" expanded="true" />
+                <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="e#11591#11611#0" expanded="true" />
+                <element signature="e#11612#11633#0" expanded="true" />
+                <element signature="e#11705#11706#0" expanded="true" />
+                <element signature="e#11760#11761#0" expanded="true" />
+                <element signature="e#11832#11833#0" expanded="true" />
+                <element signature="e#11887#11888#0" expanded="true" />
+                <element signature="e#15711#15731#0" expanded="true" />
+                <element signature="e#15769#15791#0" expanded="true" />
+                <element signature="e#15836#15863#0" expanded="true" />
+                <element signature="e#15897#16211#0" expanded="true" />
+                <element signature="e#16210#16211#0" expanded="true" />
+                <element signature="e#16400#16452#0" expanded="true" />
+                <element signature="e#16751#16802#0" expanded="true" />
+                <element signature="e#17636#17668#0" expanded="true" />
+                <element signature="e#17706#17740#0" expanded="true" />
+                <element signature="e#17785#17815#0" expanded="true" />
+                <element signature="e#17849#18408#0" expanded="true" />
+                <element signature="e#18407#18408#0" expanded="true" />
+                <element signature="e#18453#18482#0" expanded="true" />
+                <element signature="e#18516#18830#0" expanded="true" />
+                <element signature="e#18829#18830#0" expanded="true" />
+                <element signature="e#20065#20136#0" expanded="true" />
+                <element signature="e#20356#20784#0" expanded="true" />
+                <element signature="e#20783#20784#0" expanded="true" />
+                <element signature="e#21029#21054#0" expanded="true" />
+                <element signature="e#21198#21235#0" expanded="true" />
+                <element signature="e#21261#21487#0" expanded="true" />
+                <element signature="e#21486#21487#0" expanded="true" />
+                <element signature="e#21788#21858#0" expanded="true" />
+                <element signature="e#22002#22039#0" expanded="true" />
+                <element signature="e#22065#22377#0" expanded="true" />
+                <element signature="e#22376#22377#0" expanded="true" />
+                <element signature="e#22461#22500#0" expanded="true" />
+                <element signature="e#22526#23030#0" expanded="true" />
+                <element signature="e#23029#23030#0" expanded="true" />
+                <element signature="e#23113#23150#0" expanded="true" />
+                <element signature="e#23176#23402#0" expanded="true" />
+                <element signature="e#23401#23402#0" expanded="true" />
+                <element signature="method#postFile#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="e#24298#24306#0" expanded="true" />
+                <element signature="e#24370#24378#0" expanded="true" />
+                <element signature="e#24890#27826#0" expanded="true" />
+                <element signature="e#25443#25451#0" expanded="true" />
+                <element signature="e#26481#27534#0" expanded="true" />
+                <element signature="e#27533#27534#0" expanded="true" />
+                <element signature="e#27606#27798#0" expanded="true" />
+                <element signature="e#27797#27798#0" expanded="true" />
+                <element signature="e#27825#27826#0" expanded="true" />
+                <element signature="e#27837#27866#0" expanded="false" />
                 <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#27894#28280#0" expanded="true" />
-                <element signature="e#28279#28280#0" expanded="true" />
+                <element signature="e#28151#28537#0" expanded="true" />
+                <element signature="e#28536#28537#0" expanded="true" />
                 <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#28624#28858#0" expanded="true" />
-                <element signature="e#28857#28858#0" expanded="true" />
+                <element signature="e#28881#29115#0" expanded="true" />
+                <element signature="e#29114#29115#0" expanded="true" />
                 <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#29231#29926#0" expanded="true" />
-                <element signature="e#29611#29875#0" expanded="true" />
-                <element signature="e#29874#29875#0" expanded="true" />
-                <element signature="e#29925#29926#0" expanded="true" />
+                <element signature="e#29488#30183#0" expanded="true" />
+                <element signature="e#29868#30132#0" expanded="true" />
+                <element signature="e#30131#30132#0" expanded="true" />
+                <element signature="e#30182#30183#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TelephonyInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2854">
+              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#5890#5891#0" expanded="true" />
+                <element signature="e#5925#5926#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1111,28 +1125,20 @@
       <file leaf-file-name="NetworkChangeReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="349">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MTKDualSim.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="713">
+              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -1154,8 +1160,8 @@
       <file leaf-file-name="MyPhoneReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="16">
+              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1176,11 +1182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Toast</find>
-      <find>getFileName</find>
-      <find>runOnUiThread</find>
-      <find>encodeHexString</find>
-      <find>toast</find>
       <find>permission</find>
       <find>READ_PHONE_STATE</find>
       <find>PHONE_STATE</find>
@@ -1205,7 +1206,12 @@
       <find>com.mediatek.c</find>
       <find>com.mediatek.</find>
       <find>com.mediatek</find>
+      <find>i</find>
+      <find>ims</find>
+      <find>imsi1</find>
+      <find>imsi</find>
       <find>libraryVariants</find>
+      <find>printTelephonyManagerMethodNamesForThisDevice</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2811,7 +2817,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/AsyncDatagramSocket.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/async/ArrayDeque.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/async/AsyncDatagramSocket.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/async/AsyncNetworkSocket.java" />
@@ -2857,11 +2862,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/NormalDualSim.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/QualcommDualSim.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
       </list>
     </option>
   </component>
@@ -2976,6 +2982,60 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binotelmobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binotelmobile" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dualsim" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane">
@@ -3036,8 +3096,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="afaacc46" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="710HVBQR2257M" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DualSimInfo" />
+    <property name="device.picker.selection" value="TCY9KA9660100446" />
     <property name="android.profiler.active" value="true" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="VectorAssetImportPath" value="$PROJECT_DIR$/.." />
@@ -3135,7 +3195,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516117481100" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516119843197" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3182,7 +3242,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516117481100" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516119843197" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3364,7 +3424,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516117481102" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516119843199" />
       </method>
     </configuration>
     <list size="1">
@@ -3463,12 +3523,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1922" height="1061" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18945102" sideWeight="0.5064695" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733408" sideWeight="0.5043057" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4623172" sideWeight="0.49515608" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4623172" sideWeight="0.49515608" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3485,7 +3544,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46352413" sideWeight="0.5026911" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945102" sideWeight="0.4935305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945102" sideWeight="0.4935305" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288624" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3520,23 +3579,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/database/sqlite/SQLiteOpenHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_navigation.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3775,11 +3817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8148">
           <caret line="365" column="32" lean-forward="false" selection-start-line="365" selection-start-column="32" selection-end-line="365" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3787,63 +3825,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2591">
           <caret line="459" column="30" lean-forward="false" selection-start-line="459" selection-start-column="30" selection-end-line="459" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2435">
-          <caret line="421" column="27" lean-forward="false" selection-start-line="421" selection-start-column="12" selection-end-line="421" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2126#2127#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2584#2585#0" expanded="true" />
-            <element signature="e#2794#2795#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-            <element signature="e#2946#2947#0" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3023#3024#0" expanded="true" />
-            <element signature="e#3063#3064#0" expanded="true" />
-            <element signature="e#3104#3105#0" expanded="true" />
-            <element signature="e#3141#3142#0" expanded="true" />
-            <element signature="e#3181#3182#0" expanded="true" />
-            <element signature="e#3221#3222#0" expanded="true" />
-            <element signature="e#3262#3263#0" expanded="true" />
-            <element signature="e#3533#3534#0" expanded="true" />
-            <element signature="e#3581#3582#0" expanded="true" />
-            <element signature="e#3745#3746#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-            <element signature="e#3832#3833#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
-            <element signature="e#3963#3964#0" expanded="true" />
-            <element signature="e#4009#4010#0" expanded="true" />
-            <element signature="e#4061#4062#0" expanded="true" />
-            <element signature="e#4098#4099#0" expanded="true" />
-            <element signature="e#4138#4139#0" expanded="true" />
-            <element signature="e#4182#4183#0" expanded="true" />
-            <element signature="e#4232#4233#0" expanded="true" />
-            <element signature="e#4269#4270#0" expanded="true" />
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4353#4354#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3851,10 +3833,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1610">
           <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3863,16 +3842,6 @@
         <state relative-caret-position="-31">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1878">
-          <caret line="92" column="1" lean-forward="false" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3903,16 +3872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_new.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -3928,9 +3887,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3947,82 +3904,7 @@
         <state relative-caret-position="115">
           <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="176" column="115" lean-forward="false" selection-start-line="176" selection-start-column="10" selection-end-line="176" selection-end-column="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8463#8803#0" expanded="true" />
-            <element signature="e#8802#8803#0" expanded="true" />
-            <element signature="e#8832#9250#0" expanded="true" />
-            <element signature="e#9249#9250#0" expanded="true" />
-            <element signature="e#10368#11351#0" expanded="true" />
-            <element signature="e#11350#11351#0" expanded="true" />
-            <element signature="e#11709#11729#0" expanded="true" />
-            <element signature="e#11730#11751#0" expanded="true" />
-            <element signature="e#11823#11824#0" expanded="true" />
-            <element signature="e#11878#11879#0" expanded="true" />
-            <element signature="e#11950#11951#0" expanded="true" />
-            <element signature="e#12005#12006#0" expanded="true" />
-            <element signature="e#15454#15474#0" expanded="true" />
-            <element signature="e#15512#15534#0" expanded="true" />
-            <element signature="e#15579#15606#0" expanded="true" />
-            <element signature="e#15640#15954#0" expanded="true" />
-            <element signature="e#15953#15954#0" expanded="true" />
-            <element signature="e#16143#16195#0" expanded="true" />
-            <element signature="e#16494#16545#0" expanded="true" />
-            <element signature="e#17379#17411#0" expanded="true" />
-            <element signature="e#17449#17483#0" expanded="true" />
-            <element signature="e#17528#17558#0" expanded="true" />
-            <element signature="e#17592#18151#0" expanded="true" />
-            <element signature="e#18150#18151#0" expanded="true" />
-            <element signature="e#18196#18225#0" expanded="true" />
-            <element signature="e#18259#18573#0" expanded="true" />
-            <element signature="e#18572#18573#0" expanded="true" />
-            <element signature="e#19808#19879#0" expanded="true" />
-            <element signature="e#20099#20527#0" expanded="true" />
-            <element signature="e#20526#20527#0" expanded="true" />
-            <element signature="e#20772#20797#0" expanded="true" />
-            <element signature="e#20941#20978#0" expanded="true" />
-            <element signature="e#21004#21230#0" expanded="true" />
-            <element signature="e#21229#21230#0" expanded="true" />
-            <element signature="e#21531#21601#0" expanded="true" />
-            <element signature="e#21745#21782#0" expanded="true" />
-            <element signature="e#21808#22120#0" expanded="true" />
-            <element signature="e#22119#22120#0" expanded="true" />
-            <element signature="e#22204#22243#0" expanded="true" />
-            <element signature="e#22269#22773#0" expanded="true" />
-            <element signature="e#22772#22773#0" expanded="true" />
-            <element signature="e#22856#22893#0" expanded="true" />
-            <element signature="e#22919#23145#0" expanded="true" />
-            <element signature="e#23144#23145#0" expanded="true" />
-            <element signature="e#24041#24049#0" expanded="true" />
-            <element signature="e#24113#24121#0" expanded="true" />
-            <element signature="e#24633#27569#0" expanded="true" />
-            <element signature="e#25186#25194#0" expanded="true" />
-            <element signature="e#26224#27277#0" expanded="true" />
-            <element signature="e#27276#27277#0" expanded="true" />
-            <element signature="e#27349#27541#0" expanded="true" />
-            <element signature="e#27540#27541#0" expanded="true" />
-            <element signature="e#27568#27569#0" expanded="true" />
-            <element signature="e#27580#27609#0" expanded="false" />
-            <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#27894#28280#0" expanded="true" />
-            <element signature="e#28279#28280#0" expanded="true" />
-            <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#28624#28858#0" expanded="true" />
-            <element signature="e#28857#28858#0" expanded="true" />
-            <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#29231#29926#0" expanded="true" />
-            <element signature="e#29611#29875#0" expanded="true" />
-            <element signature="e#29874#29875#0" expanded="true" />
-            <element signature="e#29925#29926#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4035,19 +3917,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="1932">
+          <caret line="84" column="63" lean-forward="false" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="713">
+          <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="421" column="27" lean-forward="false" selection-start-line="421" selection-start-column="12" selection-end-line="421" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/telephony/TelephonyManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="385" column="69" lean-forward="false" selection-start-line="385" selection-start-column="69" selection-end-line="385" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8345#8685#0" expanded="true" />
+            <element signature="e#8684#8685#0" expanded="true" />
+            <element signature="e#8714#9132#0" expanded="true" />
+            <element signature="e#9131#9132#0" expanded="true" />
+            <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#11591#11611#0" expanded="true" />
+            <element signature="e#11612#11633#0" expanded="true" />
+            <element signature="e#11705#11706#0" expanded="true" />
+            <element signature="e#11760#11761#0" expanded="true" />
+            <element signature="e#11832#11833#0" expanded="true" />
+            <element signature="e#11887#11888#0" expanded="true" />
+            <element signature="e#15711#15731#0" expanded="true" />
+            <element signature="e#15769#15791#0" expanded="true" />
+            <element signature="e#15836#15863#0" expanded="true" />
+            <element signature="e#15897#16211#0" expanded="true" />
+            <element signature="e#16210#16211#0" expanded="true" />
+            <element signature="e#16400#16452#0" expanded="true" />
+            <element signature="e#16751#16802#0" expanded="true" />
+            <element signature="e#17636#17668#0" expanded="true" />
+            <element signature="e#17706#17740#0" expanded="true" />
+            <element signature="e#17785#17815#0" expanded="true" />
+            <element signature="e#17849#18408#0" expanded="true" />
+            <element signature="e#18407#18408#0" expanded="true" />
+            <element signature="e#18453#18482#0" expanded="true" />
+            <element signature="e#18516#18830#0" expanded="true" />
+            <element signature="e#18829#18830#0" expanded="true" />
+            <element signature="e#20065#20136#0" expanded="true" />
+            <element signature="e#20356#20784#0" expanded="true" />
+            <element signature="e#20783#20784#0" expanded="true" />
+            <element signature="e#21029#21054#0" expanded="true" />
+            <element signature="e#21198#21235#0" expanded="true" />
+            <element signature="e#21261#21487#0" expanded="true" />
+            <element signature="e#21486#21487#0" expanded="true" />
+            <element signature="e#21788#21858#0" expanded="true" />
+            <element signature="e#22002#22039#0" expanded="true" />
+            <element signature="e#22065#22377#0" expanded="true" />
+            <element signature="e#22376#22377#0" expanded="true" />
+            <element signature="e#22461#22500#0" expanded="true" />
+            <element signature="e#22526#23030#0" expanded="true" />
+            <element signature="e#23029#23030#0" expanded="true" />
+            <element signature="e#23113#23150#0" expanded="true" />
+            <element signature="e#23176#23402#0" expanded="true" />
+            <element signature="e#23401#23402#0" expanded="true" />
+            <element signature="method#postFile#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#24298#24306#0" expanded="true" />
+            <element signature="e#24370#24378#0" expanded="true" />
+            <element signature="e#24890#27826#0" expanded="true" />
+            <element signature="e#25443#25451#0" expanded="true" />
+            <element signature="e#26481#27534#0" expanded="true" />
+            <element signature="e#27533#27534#0" expanded="true" />
+            <element signature="e#27606#27798#0" expanded="true" />
+            <element signature="e#27797#27798#0" expanded="true" />
+            <element signature="e#27825#27826#0" expanded="true" />
+            <element signature="e#27837#27866#0" expanded="false" />
+            <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#28151#28537#0" expanded="true" />
+            <element signature="e#28536#28537#0" expanded="true" />
+            <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#28881#29115#0" expanded="true" />
+            <element signature="e#29114#29115#0" expanded="true" />
+            <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#29488#30183#0" expanded="true" />
+            <element signature="e#29868#30132#0" expanded="true" />
+            <element signature="e#30131#30132#0" expanded="true" />
+            <element signature="e#30182#30183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2854">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1236#1237#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#5890#5891#0" expanded="true" />
+            <element signature="e#5925#5926#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

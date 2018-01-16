@@ -26,16 +26,12 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
-import ua.binotel.www.binotelmobile.dualsim.DualsimBase;
-import ua.binotel.www.binotelmobile.dualsim.TelephonyManagement;
-import ua.binotel.www.binotelmobile.dualsim.TelephonyUtil;
 
 public class MyPhoneReceiver extends BroadcastReceiver {
 
     private String phoneNumber;
     private static WindowManager windowManager;
     private static ViewGroup windowLayout;
-    private TelephonyManagement.TelephonyInfo telephonyInfo;
 
     @Override
     public void onReceive(Context context, Intent intent) {

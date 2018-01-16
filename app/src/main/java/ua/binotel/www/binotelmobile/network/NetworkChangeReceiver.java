@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.util.Log;
 
 import ua.binotel.www.binotelmobile.MainActivity;
-import ua.binotel.www.binotelmobile.dualsim.TelephonyManagement;
 
 public class NetworkChangeReceiver extends BroadcastReceiver {
 
@@ -14,7 +13,6 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
 
     public static String conn = "connect";
     public static String stat;
-//    public static TelephonyManagement.TelephonyInfo telephonyInfo;
 
     @Override
     public void onReceive(final Context context, final Intent intent) {
@@ -31,6 +29,5 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
             }
         }
 
-//        telephonyInfo = TelephonyManagement.getInstance().updateTelephonyInfo(context).getTelephonyInfo(context);
     }
 }

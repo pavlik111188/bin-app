@@ -62,9 +62,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import ua.binotel.www.binotelmobile.DB.DatabaseHandler;
-import ua.binotel.www.binotelmobile.dualsim.DualsimBase;
-import ua.binotel.www.binotelmobile.dualsim.TelephonyManagement;
-import ua.binotel.www.binotelmobile.dualsim.TelephonyUtil;
+import ua.binotel.www.binotelmobile.dualsim.TelephonyInfo;
 import ua.binotel.www.binotelmobile.network.NetworkChangeReceiver;
 import ua.binotel.www.binotelmobile.network.NetworkUtil;
 
@@ -108,6 +106,7 @@ public class MainActivityNew extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
+
 
         setContentView(R.layout.activity_main_new);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -154,6 +153,9 @@ public class MainActivityNew extends AppCompatActivity {
 
             Toast.makeText(context, "getDeviceId: " + getDeviceId,Toast.LENGTH_SHORT).show();*/
         }
+
+
+
 
 //        final TelephonyManagement.TelephonyInfo telephonyInfo;
 
@@ -369,6 +371,7 @@ public class MainActivityNew extends AppCompatActivity {
             case R.id.menu_sim_info:
                 StringBuffer simsInfo = new StringBuffer();
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP_MR1) {
+                    TelephonyInfo telephonyInfo = TelephonyInfo.getInstance(this);
                     SubscriptionManager subscriptionManager = SubscriptionManager.from(getApplicationContext());
                     List<SubscriptionInfo> subsInfoList = subscriptionManager.getActiveSubscriptionInfoList();
                     int i = 1;
@@ -377,6 +380,10 @@ public class MainActivityNew extends AppCompatActivity {
                         simsInfo.append("SIM " + i + ": " + info + "\n");
                         i ++;
                     }
+                    String imeiSIM1 = telephonyInfo.getImsiSIM1();
+                    String imeiSIM2 = telephonyInfo.getImsiSIM2();
+                    simsInfo.append("imeiSIM1 " + i + ": " + imeiSIM1 + "\n");
+                    simsInfo.append("imeiSIM2 " + i + ": " + imeiSIM2 + "\n");
                     showMessage("Info about your SIMs", simsInfo.toString() );
                     break;
                 } else {
@@ -768,40 +775,5 @@ public class MainActivityNew extends AppCompatActivity {
         }
         return md5Checksum;
     }
-
-    /*private void checkSimCard() {
-        telephonyInfo = TelephonyManagement.getInstance().updateTelephonyInfo(this).getTelephonyInfo(this);
-        StringBuffer bufferSim = new StringBuffer();
-        if (!telephonyInfo.isDualSIM()) {
-            *//*if (telephonyInfo.getSlotIdSIM1() == DualsimBase.TYPE_SIM_MAIN) {
-                rbSim2.setEnabled(false);
-                rbSim1.setEnabled(true);
-                rgSimCard.check(R.id.rb_sim1);
-                btSend.setEnabled(true);
-            } else if (telephonyInfo.getSlotIdSIM1() == DualsimBase.TYPE_SIM_ASSISTANT) {
-                rbSim1.setEnabled(false);
-                rbSim2.setEnabled(true);
-                rgSimCard.check(R.id.rb_sim2);
-                btSend.setEnabled(true);
-            } else {
-                rbSim1.setEnabled(false);
-                rbSim2.setEnabled(false);
-                rgSimCard.check(-1);
-                btSend.setEnabled(false);
-            }*//*
-        } else {
-            String phoneNumberSim1 = TelephonyUtil.getSendNumber(MainActivityNew.this, telephonyInfo.getOperatorSIM1());
-            String phoneNumberSim2 = TelephonyUtil.getSendNumber(MainActivityNew.this, telephonyInfo.getOperatorBySlotId(DualsimBase.TYPE_SIM_ASSISTANT));
-
-            bufferSim.append("phoneNumberSim1: " + phoneNumberSim1 + "\n");
-            bufferSim.append("phoneNumberSim2: " + phoneNumberSim2 + "\n");
-
-            showMessage("Info sims", bufferSim.toString());
-
-            return;
-
-        }
-
-    }*/
 
 }
