@@ -1,6 +1,7 @@
 package ua.binotel.www.binotelmobile;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -25,14 +26,22 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+import ua.binotel.www.binotelmobile.dualsim.DualsimBase;
+import ua.binotel.www.binotelmobile.dualsim.TelephonyManagement;
+import ua.binotel.www.binotelmobile.dualsim.TelephonyUtil;
+
 public class MyPhoneReceiver extends BroadcastReceiver {
 
     private String phoneNumber;
     private static WindowManager windowManager;
     private static ViewGroup windowLayout;
+    private TelephonyManagement.TelephonyInfo telephonyInfo;
 
     @Override
     public void onReceive(Context context, Intent intent) {
+
+
+//        MainActivityNew.checkSimCard();
         /*TelephonyManager tMgr = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
         TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
 
