@@ -1,15 +1,19 @@
 package ua.binotel.www.binotelmobile;
 
+import android.app.AlarmManager;
 import android.app.Notification;
+import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.media.MediaRecorder;
 import android.media.MediaRecorder.OnErrorListener;
 import android.media.MediaRecorder.OnInfoListener;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
@@ -24,6 +28,8 @@ import java.io.IOException;
 
 import ua.binotel.www.binotelmobile.DB.Call;
 import ua.binotel.www.binotelmobile.DB.DatabaseHandler;
+
+import static ua.binotel.www.binotelmobile.Constants.TAG;
 
 public class RecordService extends Service {
 
@@ -43,6 +49,7 @@ public class RecordService extends Service {
 
     private boolean isStart = false;
 
+
     @Override
     public IBinder onBind(Intent intent) {
         return null;
@@ -53,30 +60,36 @@ public class RecordService extends Service {
         super.onCreate();
         ConnectivityManager connectionManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         wifiCheck = connectionManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        /*Toast toast = Toast.makeText(this,
+                "Super service!!!",
+                Toast.LENGTH_LONG);
+        toast.show();*/
+        MainActivityNew.postFile();
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d(Constants.TAG, "RecordService onStartCommand");
+        Log.i(TAG, "RecordService onStartCommand");
+        MainActivityNew.postFile();
         myPhone = intent.getStringExtra("phoneNumber");
         if (intent != null) {
             int commandType = intent.getIntExtra("commandType", 0);
             if (commandType != 0) {
                 if (commandType == Constants.RECORDING_ENABLED) {
-                    Log.d(Constants.TAG, "RecordService RECORDING_ENABLED");
+                    Log.d(TAG, "RecordService RECORDING_ENABLED");
                     silentMode = intent.getBooleanExtra("silentMode", true);
                     if (!silentMode && phoneNumber != null && onCall
                             && !recording)
                         commandType = Constants.STATE_START_RECORDING;
 
                 } else if (commandType == Constants.RECORDING_DISABLED) {
-                    Log.d(Constants.TAG, "RecordService RECORDING_DISABLED");
+                    Log.d(TAG, "RecordService RECORDING_DISABLED");
                     silentMode = intent.getBooleanExtra("silentMode", true);
                     if (onCall && phoneNumber != null && recording)
                         commandType = Constants.STATE_STOP_RECORDING;
                 }
 
                 if (commandType == Constants.STATE_INCOMING_NUMBER) {
-                    Log.d(Constants.TAG, "RecordService STATE_INCOMING_NUMBER");
+                    Log.d(TAG, "RecordService STATE_INCOMING_NUMBER");
                     startService();
                     if (phoneNumber == null)
                         phoneNumber = intent.getStringExtra("phoneNumber");
@@ -84,7 +97,7 @@ public class RecordService extends Service {
                     silentMode = intent.getBooleanExtra("silentMode", true);
                 } else if (commandType == Constants.STATE_CALL_START) {
 
-                    Log.d(Constants.TAG, "RecordService STATE_CALL_START");
+                    Log.d(TAG, "RecordService STATE_CALL_START");
                     onCall = true;
 
                     if (!silentMode && phoneNumber != null && onCall
@@ -93,14 +106,14 @@ public class RecordService extends Service {
                         startRecording(intent);
                     }
                 } else if (commandType == Constants.STATE_CALL_END) {
-                    Log.d(Constants.TAG, "RecordService STATE_CALL_END");
+                    Log.d(TAG, "RecordService STATE_CALL_END");
                     onCall = false;
                     phoneNumber = null;
                     stopAndReleaseRecorder();
                     recording = false;
                     stopService();
                 } else if (commandType == Constants.STATE_START_RECORDING) {
-                    Log.d(Constants.TAG, "RecordService STATE_START_RECORDING");
+                    Log.d(TAG, "RecordService STATE_START_RECORDING");
                     if (!silentMode && phoneNumber != null && onCall) {
                         startService();
                         startRecording(intent);
@@ -108,7 +121,7 @@ public class RecordService extends Service {
 
                     }
                 } else if (commandType == Constants.STATE_STOP_RECORDING) {
-                    Log.d(Constants.TAG, "RecordService STATE_STOP_RECORDING");
+                    Log.d(TAG, "RecordService STATE_STOP_RECORDING");
                     stopAndReleaseRecorder();
 
                     recording = false;
@@ -122,21 +135,21 @@ public class RecordService extends Service {
      * in case it is impossible to record
      */
     private void terminateAndEraseFile() {
-        Log.d(Constants.TAG, "RecordService terminateAndEraseFile");
+        Log.d(TAG, "RecordService terminateAndEraseFile");
         stopAndReleaseRecorder();
         recording = false;
         deleteFile();
     }
 
     private void stopService() {
-        Log.d(Constants.TAG, "RecordService stopService");
+        Log.w(TAG, "RecordService stopService");
         stopForeground(true);
         onForeground = false;
         this.stopSelf();
     }
 
     private void deleteFile() {
-        Log.d(Constants.TAG, "RecordService deleteFile");
+        Log.d(TAG, "RecordService deleteFile");
         FileHelper.deleteFile(fileName);
         fileName = null;
     }
@@ -144,7 +157,7 @@ public class RecordService extends Service {
     private void stopAndReleaseRecorder() {
         if (recorder == null)
             return;
-        Log.d(Constants.TAG, "RecordService stopAndReleaseRecorder");
+        Log.d(TAG, "RecordService stopAndReleaseRecorder");
         boolean recorderStopped = false;
         boolean exception = false;
 
@@ -152,28 +165,28 @@ public class RecordService extends Service {
             recorder.stop();
             recorderStopped = true;
         } catch (IllegalStateException e) {
-            Log.e(Constants.TAG, "IllegalStateException");
+            Log.e(TAG, "IllegalStateException");
             e.printStackTrace();
             exception = true;
         } catch (RuntimeException e) {
-            Log.e(Constants.TAG, "RuntimeException");
+            Log.e(TAG, "RuntimeException");
             exception = true;
         } catch (Exception e) {
-            Log.e(Constants.TAG, "Exception");
+            Log.e(TAG, "Exception");
             e.printStackTrace();
             exception = true;
         }
         try {
             recorder.reset();
         } catch (Exception e) {
-            Log.e(Constants.TAG, "Exception");
+            Log.e(TAG, "Exception");
             e.printStackTrace();
             exception = true;
         }
         try {
             recorder.release();
         } catch (Exception e) {
-            Log.e(Constants.TAG, "Exception");
+            Log.e(TAG, "Exception");
             e.printStackTrace();
             exception = true;
         }
@@ -204,14 +217,30 @@ public class RecordService extends Service {
 
     @Override
     public void onDestroy() {
-        Log.d(Constants.TAG, "RecordService onDestroy");
+        Log.d(TAG, "RecordService onDestroy");
         stopAndReleaseRecorder();
         stopService();
         super.onDestroy();
     }
 
+    @Override
+    public void onTaskRemoved(Intent rootIntent) {
+        super.onTaskRemoved(rootIntent);
+
+        Log.i(TAG, "TASK REMOVED");
+
+        PendingIntent service = PendingIntent.getService(
+                getApplicationContext(),
+                1001,
+                new Intent(getApplicationContext(), RecordService.class),
+                PendingIntent.FLAG_ONE_SHOT);
+
+        AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        alarmManager.set(AlarmManager.ELAPSED_REALTIME_WAKEUP, 1000, service);
+    }
+
     private void startRecording(Intent intent) {
-        Log.d(Constants.TAG, "RecordService startRecording");
+        Log.d(TAG, "RecordService startRecording");
         boolean exception = false;
         recorder = new MediaRecorder();
 
@@ -230,7 +259,7 @@ public class RecordService extends Service {
 
             OnErrorListener errorListener = new OnErrorListener() {
                 public void onError(MediaRecorder arg0, int arg1, int arg2) {
-                    Log.e(Constants.TAG, "OnErrorListener " + arg1 + "," + arg2);
+                    Log.e(TAG, "OnErrorListener " + arg1 + "," + arg2);
                     terminateAndEraseFile();
                 }
             };
@@ -238,7 +267,7 @@ public class RecordService extends Service {
 
             OnInfoListener infoListener = new OnInfoListener() {
                 public void onInfo(MediaRecorder arg0, int arg1, int arg2) {
-                    Log.e(Constants.TAG, "OnInfoListener " + arg1 + "," + arg2);
+                    Log.e(TAG, "OnInfoListener " + arg1 + "," + arg2);
                     terminateAndEraseFile();
                 }
             };
@@ -249,17 +278,17 @@ public class RecordService extends Service {
             Thread.sleep(2000);
             recorder.start();
             recording = true;
-            Log.d(Constants.TAG, "RecordService recorderStarted");
+            Log.d(TAG, "RecordService recorderStarted");
         } catch (IllegalStateException e) {
-            Log.e(Constants.TAG, "IllegalStateException");
+            Log.e(TAG, "IllegalStateException");
             e.printStackTrace();
             exception = true;
         } catch (IOException e) {
-            Log.e(Constants.TAG, "IOException");
+            Log.e(TAG, "IOException");
             e.printStackTrace();
             exception = true;
         } catch (Exception e) {
-            Log.e(Constants.TAG, "Exception");
+            Log.e(TAG, "Exception");
             e.printStackTrace();
             exception = true;
         }
@@ -290,7 +319,7 @@ public class RecordService extends Service {
 
     private void startService() {
         if (!onForeground) {
-            Log.d(Constants.TAG, "RecordService startService");
+            Log.d(TAG, "RecordService startService");
             Intent intent = new Intent(this, MainActivity.class);
             // intent.setAction(Intent.ACTION_VIEW);
             // intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -312,6 +341,42 @@ public class RecordService extends Service {
 
             startForeground(1337, notification);
             onForeground = true;
+
+            Long startTs = System.currentTimeMillis()/1000;
+            int timeRes;
+            String time = startTs.toString();
+            timeRes = Integer.parseInt(time);
+            // Use NotificationCompat.Builder to set up our notification.
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
+
+            //icon appears in device notification bar and right hand corner of notification
+            builder.setSmallIcon(R.drawable.ic_launcher);
+
+            // This intent is fired when notification is clicked
+            Intent intentNew = new Intent(Intent.ACTION_VIEW, Uri.parse("https://my.binotel.ua/"));
+            PendingIntent pendingIntentNew = PendingIntent.getActivity(this, 0, intentNew, 0);
+
+            // Set the intent that will fire when the user taps the notification.
+            builder.setContentIntent(pendingIntentNew);
+
+            // Large icon appears on the left of the notification
+            builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher));
+
+            // Content title, which appears in large type at the top of the notification
+            builder.setContentTitle("Информация о контакте");
+
+            // Content text, which appears in smaller text below the title
+            builder.setContentText("Петров Петр \n" + "0956732187");
+
+            // The subtext, which appears under the text on newer devices.
+            // This will show-up in the devices with Android 4.2 and above only
+            builder.setSubText("0956732187");
+
+            NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
+            // Will display the notification in the notification bar
+            notificationManager.notify(timeRes, builder.build());
+
         }
     }
 

@@ -36,7 +36,6 @@ public class MyPhoneReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-
 //        MainActivityNew.checkSimCard();
         /*TelephonyManager tMgr = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
         TelephonyManager tm = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
@@ -61,7 +60,7 @@ public class MyPhoneReceiver extends BroadcastReceiver {
         Toast.makeText(context, "getSimOperatorName: " + getLine1Number,Toast.LENGTH_LONG).show();*/
         phoneNumber = intent.getStringExtra(Intent.EXTRA_PHONE_NUMBER);
         String extraState = intent.getStringExtra(TelephonyManager.EXTRA_STATE);
-        showWindow(context, phoneNumber);
+//        showWindow(context, phoneNumber);
 
         if (MainActivity.updateExternalStorageState() == Constants.MEDIA_MOUNTED) {
             try {

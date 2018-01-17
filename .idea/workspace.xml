@@ -13,13 +13,89 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a44cfcc-bd4e-4dbe-ae8c-31042b8a8c2e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/DualsimBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/NormalDualSim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/QualcommDualSim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/SamsungDualSim.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-31-30-481.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-49-32-427.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-51-47-471.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-56-15-469.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-02-24-105.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-03-45-644.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-07-45-298.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-08-26-961.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-11-23-165.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-25-44-421.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-40-22-474.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-41-25-742.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-41-38-462.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-43-01-324.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-01-59-365.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-03-34-386.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-08-41-508.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-15-10-546.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-15-57-232.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-20-22-014.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-23-29-224.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-25-27-334.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-26-14-700.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-28-10-924.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-29-20-152.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-34-55-703.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-44-41-548.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-47-11-157.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-14-27-17-976.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-14-42-00-877.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-14-46-06-063.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-16-18-39-062.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-05-50-354.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-06-48-105.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-16-31-085.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-17-37-717.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-22-57-527.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-39-42-092.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-40-40-794.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-44-09-817.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-18-12-36-212.rawproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/onRestartReciever.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-31-30-481.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-49-32-427.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-51-47-471.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-10-56-15-469.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-02-24-105.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-03-45-644.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-07-45-298.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-08-26-961.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-11-23-165.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-25-44-421.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-40-22-474.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-41-25-742.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-41-38-462.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-11-43-01-324.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-01-59-365.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-03-34-386.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-08-41-508.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-15-10-546.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-15-57-232.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-20-22-014.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-23-29-224.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-25-27-334.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-26-14-700.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-28-10-924.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-29-20-152.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-34-55-703.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-44-41-548.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-12-47-11-157.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-14-27-17-976.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-14-42-00-877.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-14-46-06-063.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-16-18-39-062.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-05-50-354.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-06-48-105.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-16-31-085.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-17-37-717.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-22-57-527.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-39-42-092.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-40-40-794.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-17-44-09-817.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2018-01-17-18-12-36-212.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -29,8 +105,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java" />
     </list>
     <ignored path="Calls from a mobile phone.iws" />
@@ -1025,98 +1104,69 @@
       <file leaf-file-name="MainActivityNew.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="385" column="69" lean-forward="false" selection-start-line="385" selection-start-column="69" selection-end-line="385" selection-end-column="69" />
+            <state relative-caret-position="190">
+              <caret line="614" column="35" lean-forward="false" selection-start-line="614" selection-start-column="35" selection-end-line="614" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#8345#8685#0" expanded="true" />
-                <element signature="e#8684#8685#0" expanded="true" />
-                <element signature="e#8714#9132#0" expanded="true" />
-                <element signature="e#9131#9132#0" expanded="true" />
+                <element signature="e#8512#8852#0" expanded="true" />
+                <element signature="e#8851#8852#0" expanded="true" />
+                <element signature="e#8881#9299#0" expanded="true" />
+                <element signature="e#9298#9299#0" expanded="true" />
                 <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#11591#11611#0" expanded="true" />
-                <element signature="e#11612#11633#0" expanded="true" />
-                <element signature="e#11705#11706#0" expanded="true" />
-                <element signature="e#11760#11761#0" expanded="true" />
-                <element signature="e#11832#11833#0" expanded="true" />
-                <element signature="e#11887#11888#0" expanded="true" />
-                <element signature="e#15711#15731#0" expanded="true" />
-                <element signature="e#15769#15791#0" expanded="true" />
-                <element signature="e#15836#15863#0" expanded="true" />
-                <element signature="e#15897#16211#0" expanded="true" />
-                <element signature="e#16210#16211#0" expanded="true" />
-                <element signature="e#16400#16452#0" expanded="true" />
-                <element signature="e#16751#16802#0" expanded="true" />
-                <element signature="e#17636#17668#0" expanded="true" />
-                <element signature="e#17706#17740#0" expanded="true" />
-                <element signature="e#17785#17815#0" expanded="true" />
-                <element signature="e#17849#18408#0" expanded="true" />
-                <element signature="e#18407#18408#0" expanded="true" />
-                <element signature="e#18453#18482#0" expanded="true" />
-                <element signature="e#18516#18830#0" expanded="true" />
-                <element signature="e#18829#18830#0" expanded="true" />
-                <element signature="e#20065#20136#0" expanded="true" />
-                <element signature="e#20356#20784#0" expanded="true" />
-                <element signature="e#20783#20784#0" expanded="true" />
-                <element signature="e#21029#21054#0" expanded="true" />
-                <element signature="e#21198#21235#0" expanded="true" />
-                <element signature="e#21261#21487#0" expanded="true" />
-                <element signature="e#21486#21487#0" expanded="true" />
-                <element signature="e#21788#21858#0" expanded="true" />
-                <element signature="e#22002#22039#0" expanded="true" />
-                <element signature="e#22065#22377#0" expanded="true" />
-                <element signature="e#22376#22377#0" expanded="true" />
-                <element signature="e#22461#22500#0" expanded="true" />
-                <element signature="e#22526#23030#0" expanded="true" />
-                <element signature="e#23029#23030#0" expanded="true" />
-                <element signature="e#23113#23150#0" expanded="true" />
-                <element signature="e#23176#23402#0" expanded="true" />
-                <element signature="e#23401#23402#0" expanded="true" />
-                <element signature="method#postFile#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#24298#24306#0" expanded="true" />
-                <element signature="e#24370#24378#0" expanded="true" />
-                <element signature="e#24890#27826#0" expanded="true" />
-                <element signature="e#25443#25451#0" expanded="true" />
-                <element signature="e#26481#27534#0" expanded="true" />
-                <element signature="e#27533#27534#0" expanded="true" />
-                <element signature="e#27606#27798#0" expanded="true" />
-                <element signature="e#27797#27798#0" expanded="true" />
-                <element signature="e#27825#27826#0" expanded="true" />
-                <element signature="e#27837#27866#0" expanded="false" />
+                <element signature="e#10417#11400#0" expanded="true" />
+                <element signature="e#11399#11400#0" expanded="true" />
+                <element signature="e#11758#11778#0" expanded="true" />
+                <element signature="e#11779#11800#0" expanded="true" />
+                <element signature="e#15878#15898#0" expanded="true" />
+                <element signature="e#15936#15958#0" expanded="true" />
+                <element signature="e#16003#16030#0" expanded="true" />
+                <element signature="e#16064#16378#0" expanded="true" />
+                <element signature="e#16377#16378#0" expanded="true" />
+                <element signature="e#16567#16619#0" expanded="true" />
+                <element signature="e#16918#16969#0" expanded="true" />
+                <element signature="e#17803#17835#0" expanded="true" />
+                <element signature="e#17873#17907#0" expanded="true" />
+                <element signature="e#17952#17982#0" expanded="true" />
+                <element signature="e#18016#18575#0" expanded="true" />
+                <element signature="e#18574#18575#0" expanded="true" />
+                <element signature="e#18620#18649#0" expanded="true" />
+                <element signature="e#18683#18997#0" expanded="true" />
+                <element signature="e#18996#18997#0" expanded="true" />
+                <element signature="e#20232#20303#0" expanded="true" />
+                <element signature="e#20523#20951#0" expanded="true" />
+                <element signature="e#20950#20951#0" expanded="true" />
+                <element signature="e#21196#21221#0" expanded="true" />
+                <element signature="e#21365#21402#0" expanded="true" />
+                <element signature="e#21428#21654#0" expanded="true" />
+                <element signature="e#21653#21654#0" expanded="true" />
+                <element signature="e#21955#22025#0" expanded="true" />
+                <element signature="e#22169#22206#0" expanded="true" />
+                <element signature="e#22232#22544#0" expanded="true" />
+                <element signature="e#22543#22544#0" expanded="true" />
+                <element signature="e#22628#22667#0" expanded="true" />
+                <element signature="e#22693#23197#0" expanded="true" />
+                <element signature="e#23196#23197#0" expanded="true" />
+                <element signature="e#23280#23317#0" expanded="true" />
+                <element signature="e#23343#23569#0" expanded="true" />
+                <element signature="e#23568#23569#0" expanded="true" />
+                <element signature="e#24472#24480#0" expanded="true" />
+                <element signature="e#24544#24552#0" expanded="true" />
+                <element signature="e#25065#27757#0" expanded="true" />
+                <element signature="e#25618#25626#0" expanded="true" />
+                <element signature="e#26656#27711#0" expanded="true" />
+                <element signature="e#27710#27711#0" expanded="true" />
+                <element signature="e#27756#27757#0" expanded="true" />
+                <element signature="e#27768#27797#0" expanded="false" />
                 <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#28151#28537#0" expanded="true" />
-                <element signature="e#28536#28537#0" expanded="true" />
+                <element signature="e#28082#28468#0" expanded="true" />
+                <element signature="e#28467#28468#0" expanded="true" />
                 <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#28881#29115#0" expanded="true" />
-                <element signature="e#29114#29115#0" expanded="true" />
+                <element signature="e#28812#29046#0" expanded="true" />
+                <element signature="e#29045#29046#0" expanded="true" />
                 <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#29488#30183#0" expanded="true" />
-                <element signature="e#29868#30132#0" expanded="true" />
-                <element signature="e#30131#30132#0" expanded="true" />
-                <element signature="e#30182#30183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TelephonyInfo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2854">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1236#1237#0" expanded="true" />
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#5890#5891#0" expanded="true" />
-                <element signature="e#5925#5926#0" expanded="true" />
+                <element signature="e#29419#30114#0" expanded="true" />
+                <element signature="e#29799#30063#0" expanded="true" />
+                <element signature="e#30062#30063#0" expanded="true" />
+                <element signature="e#30113#30114#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1125,8 +1175,8 @@
       <file leaf-file-name="NetworkChangeReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1134,24 +1184,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="53" lean-forward="false" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main_new.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_new.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="183">
+              <caret line="439" column="45" lean-forward="false" selection-start-line="439" selection-start-column="45" selection-end-line="439" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1160,8 +1197,51 @@
       <file leaf-file-name="MyPhoneReceiver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="-1627">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecordService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="235" column="44" lean-forward="false" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="44" />
+              <folding>
+                <element signature="method#startRecording#0;class#RecordService#0" expanded="false" />
+                <element signature="method#startService#0;class#RecordService#0" expanded="false" />
+                <element signature="e#11878#11921#0" expanded="true" />
+                <element signature="e#11954#11998#0" expanded="true" />
+                <element signature="e#12036#12078#0" expanded="true" />
+                <element signature="method#postStartTimeToServer#0;class#RecordService#0" expanded="false" />
+                <element signature="method#postEndTimeToServer#0;class#RecordService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-452">
+              <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onRestartReciever.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/onRestartReciever.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1182,26 +1262,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>permission</find>
-      <find>READ_PHONE_STATE</find>
-      <find>PHONE_STATE</find>
-      <find>INTERNAL_SYSTEM_WINDOW</find>
-      <find>telephony</find>
-      <find>TelephonyManager</find>
-      <find>bufferSim</find>
-      <find>buffer</find>
-      <find>Log.e</find>
-      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;use MTK chip&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</find>
-      <find>GeminiSmsManager</find>
-      <find>ConnectivityManager</find>
-      <find>IOnlyOwnerSimSupport</find>
-      <find>com.mediatek.common.telephony</find>
-      <find>com.mediatek.common.telephon</find>
-      <find>com.mediatek.common.</find>
-      <find>com.mediatek.common</find>
-      <find>com.mediatek.commo</find>
-      <find>com.mediatek.comm</find>
-      <find>com.mediatek.com</find>
       <find>com.mediatek.co</find>
       <find>com.mediatek.c</find>
       <find>com.mediatek.</find>
@@ -1212,6 +1272,26 @@
       <find>imsi</find>
       <find>libraryVariants</find>
       <find>printTelephonyManagerMethodNamesForThisDevice</find>
+      <find>Service</find>
+      <find>myDb</find>
+      <find>startInt</find>
+      <find>dev.mmy.binotel.ua</find>
+      <find>buffer</find>
+      <find>buffer</find>
+      <find>і</find>
+      <find>іг</find>
+      <find>ігз</find>
+      <find>ігзу</find>
+      <find>ігзук</find>
+      <find>ігзук</find>
+      <find>ігзук і</find>
+      <find>ігзук іу</find>
+      <find>ігзук іукм</find>
+      <find>ігзук іук</find>
+      <find>s</find>
+      <find>super s</find>
+      <find>toast</find>
+      <find>service</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2817,9 +2897,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/async/ArrayDeque.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/async/AsyncDatagramSocket.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/server/async/AsyncNetworkSocket.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/async/BasicAuthMiddleware.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/async/CacheOverrideMiddleware.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/ua/binotel/www/binotelmobile/R.java" />
@@ -2836,7 +2913,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/Contact.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/callrow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/Contact.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/nav_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -2850,10 +2926,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyCallsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/GetMD5ForFile.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/Util.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/info.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/TelephonyManagement.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java" />
@@ -2865,9 +2939,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/ActivityOfYourChoice.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/ExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/onRestartReciever.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java" />
       </list>
     </option>
   </component>
@@ -2924,42 +3004,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3024,20 +3068,47 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binotelmobile" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dualsim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3090,14 +3161,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="afaacc46" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DualSimInfo" />
-    <property name="device.picker.selection" value="TCY9KA9660100446" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testRunningServicesBackgroundRelaunched" />
+    <property name="device.picker.selection" value="710HVBQR2257M" />
     <property name="android.profiler.active" value="true" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="VectorAssetImportPath" value="$PROJECT_DIR$/.." />
@@ -3195,7 +3267,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516119843197" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516206670356" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3242,7 +3315,8 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516119843197" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516206670356" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3424,7 +3498,8 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516119843199" />
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516206670357" />
       </method>
     </configuration>
     <list size="1">
@@ -3525,29 +3600,28 @@
     <frame x="0" y="-1" width="1922" height="1061" extended-state="0" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18945102" sideWeight="0.5064695" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733408" sideWeight="0.5043057" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4623172" sideWeight="0.49515608" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955106" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733408" sideWeight="0.4956943" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18945102" sideWeight="0.5064695" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733408" sideWeight="0.5043057" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39257592" sideWeight="0.4956943" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4848144" sideWeight="0.49515608" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46352413" sideWeight="0.5026911" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945102" sideWeight="0.4935305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945102" sideWeight="0.4935305" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288624" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955106" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -3559,6 +3633,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3579,47 +3654,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_navigation.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/callrow.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/content/ContentValues.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/CallsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="56" column="47" lean-forward="false" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/app/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -3656,26 +3690,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rowlayout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/content/Context.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="341" column="46" lean-forward="false" selection-start-line="341" selection-start-column="34" selection-end-line="341" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/Call.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -3697,13 +3724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3333">
-          <caret line="435" column="0" lean-forward="true" selection-start-line="435" selection-start-column="0" selection-end-line="435" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -3781,62 +3801,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="65" lean-forward="false" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/info.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/info.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/SamsungDualSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8148">
-          <caret line="365" column="32" lean-forward="false" selection-start-line="365" selection-start-column="32" selection-end-line="365" selection-end-column="32" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/QualcommDualSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2591">
-          <caret line="459" column="30" lean-forward="false" selection-start-line="459" selection-start-column="30" selection-end-line="459" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/NormalDualSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/SamsungDualSim.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/QualcommDualSim.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/NormalDualSim.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -3849,7 +3836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3857,10 +3843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3868,63 +3850,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_new.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="759">
           <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/DualsimBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="31" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/DualsimBase.java" />
     <entry file="file://$PROJECT_DIR$/../../../../Android/Sdk/sources/android-27/android/net/ConnectivityManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1932">
-          <caret line="84" column="63" lean-forward="false" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/MTKDualSim.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyUtil.java" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -3933,134 +3882,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="421" column="27" lean-forward="false" selection-start-line="421" selection-start-column="12" selection-end-line="421" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyManagement.java" />
     <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/telephony/TelephonyManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-897">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="118" column="18" lean-forward="false" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#1049#1050#0" expanded="false" />
+            <element signature="e#1083#1084#0" expanded="false" />
+            <element signature="e#1236#1237#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#5890#5891#0" expanded="false" />
+            <element signature="e#5925#5926#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/app/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="92" column="22" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/content/Intent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="151" column="31" lean-forward="false" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/Call.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/ActivityOfYourChoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="385" column="69" lean-forward="false" selection-start-line="385" selection-start-column="69" selection-end-line="385" selection-end-column="69" />
+        <state relative-caret-position="190">
+          <caret line="614" column="35" lean-forward="false" selection-start-line="614" selection-start-column="35" selection-end-line="614" selection-end-column="35" />
+          <folding>
+            <element signature="e#8512#8852#0" expanded="true" />
+            <element signature="e#8851#8852#0" expanded="true" />
+            <element signature="e#8881#9299#0" expanded="true" />
+            <element signature="e#9298#9299#0" expanded="true" />
+            <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#10417#11400#0" expanded="true" />
+            <element signature="e#11399#11400#0" expanded="true" />
+            <element signature="e#11758#11778#0" expanded="true" />
+            <element signature="e#11779#11800#0" expanded="true" />
+            <element signature="e#15878#15898#0" expanded="true" />
+            <element signature="e#15936#15958#0" expanded="true" />
+            <element signature="e#16003#16030#0" expanded="true" />
+            <element signature="e#16064#16378#0" expanded="true" />
+            <element signature="e#16377#16378#0" expanded="true" />
+            <element signature="e#16567#16619#0" expanded="true" />
+            <element signature="e#16918#16969#0" expanded="true" />
+            <element signature="e#17803#17835#0" expanded="true" />
+            <element signature="e#17873#17907#0" expanded="true" />
+            <element signature="e#17952#17982#0" expanded="true" />
+            <element signature="e#18016#18575#0" expanded="true" />
+            <element signature="e#18574#18575#0" expanded="true" />
+            <element signature="e#18620#18649#0" expanded="true" />
+            <element signature="e#18683#18997#0" expanded="true" />
+            <element signature="e#18996#18997#0" expanded="true" />
+            <element signature="e#20232#20303#0" expanded="true" />
+            <element signature="e#20523#20951#0" expanded="true" />
+            <element signature="e#20950#20951#0" expanded="true" />
+            <element signature="e#21196#21221#0" expanded="true" />
+            <element signature="e#21365#21402#0" expanded="true" />
+            <element signature="e#21428#21654#0" expanded="true" />
+            <element signature="e#21653#21654#0" expanded="true" />
+            <element signature="e#21955#22025#0" expanded="true" />
+            <element signature="e#22169#22206#0" expanded="true" />
+            <element signature="e#22232#22544#0" expanded="true" />
+            <element signature="e#22543#22544#0" expanded="true" />
+            <element signature="e#22628#22667#0" expanded="true" />
+            <element signature="e#22693#23197#0" expanded="true" />
+            <element signature="e#23196#23197#0" expanded="true" />
+            <element signature="e#23280#23317#0" expanded="true" />
+            <element signature="e#23343#23569#0" expanded="true" />
+            <element signature="e#23568#23569#0" expanded="true" />
+            <element signature="e#24472#24480#0" expanded="true" />
+            <element signature="e#24544#24552#0" expanded="true" />
+            <element signature="e#25065#27757#0" expanded="true" />
+            <element signature="e#25618#25626#0" expanded="true" />
+            <element signature="e#26656#27711#0" expanded="true" />
+            <element signature="e#27710#27711#0" expanded="true" />
+            <element signature="e#27756#27757#0" expanded="true" />
+            <element signature="e#27768#27797#0" expanded="false" />
+            <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#28082#28468#0" expanded="true" />
+            <element signature="e#28467#28468#0" expanded="true" />
+            <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#28812#29046#0" expanded="true" />
+            <element signature="e#29045#29046#0" expanded="true" />
+            <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#29419#30114#0" expanded="true" />
+            <element signature="e#29799#30063#0" expanded="true" />
+            <element signature="e#30062#30063#0" expanded="true" />
+            <element signature="e#30113#30114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/ExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="439" column="45" lean-forward="false" selection-start-line="439" selection-start-column="45" selection-end-line="439" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/onRestartReciever.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#8345#8685#0" expanded="true" />
-            <element signature="e#8684#8685#0" expanded="true" />
-            <element signature="e#8714#9132#0" expanded="true" />
-            <element signature="e#9131#9132#0" expanded="true" />
-            <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#11591#11611#0" expanded="true" />
-            <element signature="e#11612#11633#0" expanded="true" />
-            <element signature="e#11705#11706#0" expanded="true" />
-            <element signature="e#11760#11761#0" expanded="true" />
-            <element signature="e#11832#11833#0" expanded="true" />
-            <element signature="e#11887#11888#0" expanded="true" />
-            <element signature="e#15711#15731#0" expanded="true" />
-            <element signature="e#15769#15791#0" expanded="true" />
-            <element signature="e#15836#15863#0" expanded="true" />
-            <element signature="e#15897#16211#0" expanded="true" />
-            <element signature="e#16210#16211#0" expanded="true" />
-            <element signature="e#16400#16452#0" expanded="true" />
-            <element signature="e#16751#16802#0" expanded="true" />
-            <element signature="e#17636#17668#0" expanded="true" />
-            <element signature="e#17706#17740#0" expanded="true" />
-            <element signature="e#17785#17815#0" expanded="true" />
-            <element signature="e#17849#18408#0" expanded="true" />
-            <element signature="e#18407#18408#0" expanded="true" />
-            <element signature="e#18453#18482#0" expanded="true" />
-            <element signature="e#18516#18830#0" expanded="true" />
-            <element signature="e#18829#18830#0" expanded="true" />
-            <element signature="e#20065#20136#0" expanded="true" />
-            <element signature="e#20356#20784#0" expanded="true" />
-            <element signature="e#20783#20784#0" expanded="true" />
-            <element signature="e#21029#21054#0" expanded="true" />
-            <element signature="e#21198#21235#0" expanded="true" />
-            <element signature="e#21261#21487#0" expanded="true" />
-            <element signature="e#21486#21487#0" expanded="true" />
-            <element signature="e#21788#21858#0" expanded="true" />
-            <element signature="e#22002#22039#0" expanded="true" />
-            <element signature="e#22065#22377#0" expanded="true" />
-            <element signature="e#22376#22377#0" expanded="true" />
-            <element signature="e#22461#22500#0" expanded="true" />
-            <element signature="e#22526#23030#0" expanded="true" />
-            <element signature="e#23029#23030#0" expanded="true" />
-            <element signature="e#23113#23150#0" expanded="true" />
-            <element signature="e#23176#23402#0" expanded="true" />
-            <element signature="e#23401#23402#0" expanded="true" />
-            <element signature="method#postFile#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#24298#24306#0" expanded="true" />
-            <element signature="e#24370#24378#0" expanded="true" />
-            <element signature="e#24890#27826#0" expanded="true" />
-            <element signature="e#25443#25451#0" expanded="true" />
-            <element signature="e#26481#27534#0" expanded="true" />
-            <element signature="e#27533#27534#0" expanded="true" />
-            <element signature="e#27606#27798#0" expanded="true" />
-            <element signature="e#27797#27798#0" expanded="true" />
-            <element signature="e#27825#27826#0" expanded="true" />
-            <element signature="e#27837#27866#0" expanded="false" />
-            <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#28151#28537#0" expanded="true" />
-            <element signature="e#28536#28537#0" expanded="true" />
-            <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#28881#29115#0" expanded="true" />
-            <element signature="e#29114#29115#0" expanded="true" />
-            <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#29488#30183#0" expanded="true" />
-            <element signature="e#29868#30132#0" expanded="true" />
-            <element signature="e#30131#30132#0" expanded="true" />
-            <element signature="e#30182#30183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/network/NetworkChangeReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="33" column="42" lean-forward="false" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="-1627">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/TelephonyInfo.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2854">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="298">
+          <caret line="235" column="44" lean-forward="false" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="44" />
           <folding>
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#5890#5891#0" expanded="true" />
-            <element signature="e#5925#5926#0" expanded="true" />
+            <element signature="method#startRecording#0;class#RecordService#0" expanded="false" />
+            <element signature="method#startService#0;class#RecordService#0" expanded="false" />
+            <element signature="e#11878#11921#0" expanded="true" />
+            <element signature="e#11954#11998#0" expanded="true" />
+            <element signature="e#12036#12078#0" expanded="true" />
+            <element signature="method#postStartTimeToServer#0;class#RecordService#0" expanded="false" />
+            <element signature="method#postEndTimeToServer#0;class#RecordService#0" expanded="false" />
           </folding>
         </state>
       </provider>

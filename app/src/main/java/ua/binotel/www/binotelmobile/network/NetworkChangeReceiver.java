@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import ua.binotel.www.binotelmobile.MainActivity;
+import ua.binotel.www.binotelmobile.MainActivityNew;
 
 public class NetworkChangeReceiver extends BroadcastReceiver {
 
@@ -16,16 +16,15 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, final Intent intent) {
-        Log.i("tag", "Test: ");
         int status = NetworkUtil.getConnectivityStatusString(context);
         stat = String.valueOf(status);
 
         if (status > 0) {
-//            MainActivity.postFile();
+            MainActivityNew.postFile();
         }
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             if (status > 0) {
-//                MainActivity.postFile();
+                MainActivityNew.postFile();
             }
         }
 

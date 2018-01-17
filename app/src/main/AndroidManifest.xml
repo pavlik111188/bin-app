@@ -61,6 +61,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+                <!--<action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+                <action android:name="android.intent.action.PACKAGES_SUSPENDED" />
+                <action android:name="android.intent.action.REBOOT" />
+                <data android:scheme="package" android:path="ua.binotel.www.binotelmobile" />-->
             </intent-filter>
         </receiver>
         <!--<service android:name=".async.UploadingService" />-->
@@ -76,7 +83,9 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".RecordService" />
+        <service
+            android:name=".RecordService"
+            android:enabled="true"/>
 
         <activity
             android:name=".TermsActivity"
@@ -85,6 +94,13 @@
         <activity
             android:name=".TestActivity"
             android:label="@string/title_activity_main" />
+        <receiver android:name=".onRestartReciever">
+        <intent-filter>
+            <action android:name="android.intent.action.PACKAGE_REPLACED" />
+            <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+            <data android:scheme="package" android:path="ua.binotel.www.binotelmobile" />
+        </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

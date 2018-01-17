@@ -437,7 +437,7 @@ public class MainActivity extends AppCompatActivity {
     public static void postFile() {
         final ArrayList<String> filesListLocal = new ArrayList<String>();
         final ArrayList<String> uniquevalues = new ArrayList<String>();
-        AsyncHttpGet get = new AsyncHttpGet("http://dev.mmy.binotel.ua/filesList.php");
+        AsyncHttpGet get = new AsyncHttpGet("");
 
         String path = FileHelper.getFilePath() + "/"
                 + Constants.FILE_DIRECTORY;
@@ -471,7 +471,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 for (String item: uniquevalues) {
                     Log.d("item ", item);
-                    AsyncHttpPost post = new AsyncHttpPost("http://dev.mmy.binotel.ua/server.php");
+                    AsyncHttpPost post = new AsyncHttpPost("");
                     MultipartFormDataBody body = new MultipartFormDataBody();
                     body.addFilePart("my-file", new File(FileHelper.getFilePath() + "/"
                             + Constants.FILE_DIRECTORY + "/" + item));

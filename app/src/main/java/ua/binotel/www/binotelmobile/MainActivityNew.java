@@ -4,6 +4,8 @@ import android.Manifest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,6 +15,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -25,6 +28,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.widget.Toolbar;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
@@ -168,13 +172,13 @@ public class MainActivityNew extends AppCompatActivity {
         String phoneNumber = tm.getLine1Number();
         String simCountry = tm.getSimCountryIso();
 
-        Log.w("tag", "getDeviceId: " + deviceId);
+        /*Log.w("tag", "getDeviceId: " + deviceId);
         Log.w("tag", "getDeviceSoftwareVersion: " + deviceSoftwareVersion);
         Log.w("tag", "getNetworkOperator: " + networkOperator);
         Log.w("tag", "getNetworkOperatorName: " + networkOperatorName);
         Log.w("tag", "getSimSerialNumber: " + serialNumber);
         Log.w("tag", "phoneNumber: " + phoneNumber);
-        Log.w("tag", "getSimCountryIso: " + simCountry);
+        Log.w("tag", "getSimCountryIso: " + simCountry);*/
 
 //        telephonyInfo = TelephonyManagement.getInstance().updateTelephonyInfo(context).getTelephonyInfo(context);
         StringBuffer bufferSim = new StringBuffer();
@@ -593,7 +597,7 @@ public class MainActivityNew extends AppCompatActivity {
         super.onPrepareDialog(id, dialog);
     }
 
-    public void postFile() {
+    public static void postFile() {
         final ArrayList<String> filesListLocal = new ArrayList<String>();
         final ArrayList<String> uniquevalues = new ArrayList<String>();
         AsyncHttpGet get = new AsyncHttpGet("http://pr-web.com.ua/filesList.php");
@@ -606,7 +610,7 @@ public class MainActivityNew extends AppCompatActivity {
         {
             filesListLocal.add(files[i].getName());
         }
-        final StringBuffer buffer = new StringBuffer();
+        final StringBuffer jsonRes = new StringBuffer();
 
         AsyncHttpClient.getDefaultInstance().executeString(get, new AsyncHttpClient.StringCallback() {
             // Callback is invoked with any exceptions/errors, and the result, if available.
@@ -652,8 +656,8 @@ public class MainActivityNew extends AppCompatActivity {
                                 final JSONObject obj = new JSONObject(json);
                                 String fileName = obj.get("name").toString();
                                 String status = obj.get("status").toString();
-                                buffer.append("file name: " + fileName + "\n");
-                                buffer.append("status: " + status + "\n");
+                                jsonRes.append("file name: " + fileName + "\n");
+                                jsonRes.append("status: " + status + "\n");
                             } catch (Throwable t) {
                                 Log.w("My App", "Could not parse malformed JSON: \"" + json + "\"");
                             }
@@ -662,12 +666,6 @@ public class MainActivityNew extends AppCompatActivity {
                         }
                     });
                 }
-                MainActivityNew.this.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-//                        showMessage("info", buffer.toString());
-                    }
-                });
 
             }
 
