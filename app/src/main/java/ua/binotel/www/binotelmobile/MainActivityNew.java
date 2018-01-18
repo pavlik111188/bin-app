@@ -650,7 +650,6 @@ public class MainActivityNew extends AppCompatActivity {
                                 return;
                             }
                             String json = result;
-
                             try {
 
                                 final JSONObject obj = new JSONObject(json);

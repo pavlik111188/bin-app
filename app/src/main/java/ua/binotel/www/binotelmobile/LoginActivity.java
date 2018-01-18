@@ -19,6 +19,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,12 +29,21 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.koushikdutta.async.http.AsyncHttpClient;
+import com.koushikdutta.async.http.AsyncHttpPost;
+import com.koushikdutta.async.http.AsyncHttpResponse;
 import com.koushikdutta.async.http.WebSocket;
 
+import com.koushikdutta.async.http.body.MultipartFormDataBody;
+import com.koushikdutta.async.http.cache.ResponseCacheMiddleware;
 import com.orhanobut.logger.Logger;
 
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -74,14 +84,16 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private WebSocket webSocket;
     private String sessionId;
 
+    public String token;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
-
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -113,8 +125,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         Logger.init();
 
+        loginProcess("ps@binotel.com", "123456");
 
-        AsyncHttpClient.getDefaultInstance().websocket("wss://ws.binotel.com:9002", "wss", new AsyncHttpClient.WebSocketConnectCallback() {
+
+        /*AsyncHttpClient.getDefaultInstance().websocket("wss://ws.binotel.com:9002", "wss", new AsyncHttpClient.WebSocketConnectCallback() {
             @Override
             public void onCompleted(Exception ex, WebSocket webSocket) {
                 //this.webSocket = webSocket;
@@ -135,16 +149,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     }
                 });
             }
-        });
+        });*/
 
 
-        Logger.d("hello %s %d", "world", 5);   // String.format
     }
-
-
-
-
-
 
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
@@ -211,17 +219,17 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        /*String email = mEmailView.getText().toString();
-        String password = mPasswordView.getText().toString();*/
-
-        String email = "ps@binotel.com";
-        String password = "rt3$)oJF1ydglcsIpO";
+        String email = mEmailView.getText().toString();
+        String password = mPasswordView.getText().toString();
 
         boolean cancel = false;
         View focusView = null;
-
         // Check for a valid password, if the user entered one.
-        if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
+        if (TextUtils.isEmpty(password)) {
+            mPasswordView.setError(getString(R.string.error_field_required));
+            focusView = mPasswordView;
+            cancel = true;
+        } else if (!isPasswordValid(password)) {
             mPasswordView.setError(getString(R.string.error_invalid_password));
             focusView = mPasswordView;
             cancel = true;
@@ -246,8 +254,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
+            /*mAuthTask = new UserLoginTask(email, password);
+            mAuthTask.execute((Void) null);*/
+            loginProcess(email, password);
+
         }
     }
 
@@ -258,7 +268,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
-        return password.length() > 4;
+        return password.length() > 5;
     }
 
     /**
@@ -436,5 +446,59 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
         }
     }
+
+    private void loginProcess(String email, String pass) {
+        final StringBuffer res = new StringBuffer();
+        final String message;
+        AsyncHttpPost post = new AsyncHttpPost("http://pr-web.com.ua/login.php");
+        MultipartFormDataBody body = new MultipartFormDataBody();
+        body.addStringPart("email", email);
+        body.addStringPart("pass", pass);
+        post.setBody(body);
+        AsyncHttpClient.getDefaultInstance().executeString(post, new AsyncHttpClient.StringCallback(){
+
+            @Override
+            public void onCompleted(Exception ex, AsyncHttpResponse source, String result) {
+                if (ex != null) {
+                    Log.e("My App", "Exception: " + ex);
+                    ex.printStackTrace();
+                    return;
+                }
+
+                String json = result;
+                Log.e("My App", "JSON: \"" + json + "\"");
+                try {
+
+                    final JSONObject obj = new JSONObject(json);
+                    String status = obj.get("status").toString();
+                    if (status == "success") {
+                        token = obj.get("token").toString();
+                        res.append("success\n");
+                    } else {
+                        String message = obj.get("message").toString();
+                        res.append(message);
+                        Log.i(Constants.TAG, res.toString());
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                Toast.makeText(getApplicationContext(), res, Toast.LENGTH_LONG).show();
+                            }
+                        });
+                    }
+
+
+                    showProgress(false);
+                } catch (Throwable t) {
+                    Log.w("My App", "Could not parse malformed JSON: \"" + json + "\"");
+                    Log.w("My App", "Could not parse malformed JSON: \"" + t + "\"");
+                }
+
+
+
+            }
+        });
+        return;
+    }
+
 }
 

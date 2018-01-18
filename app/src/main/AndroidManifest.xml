@@ -33,7 +33,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".MainActivityNew"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -92,7 +92,7 @@
             android:label="@string/title_activity_main" />
 
         <activity
-            android:name=".TestActivity"
+            android:name=".MainActivityNew"
             android:label="@string/title_activity_main" />
         <receiver android:name=".onRestartReciever">
         <intent-filter>
