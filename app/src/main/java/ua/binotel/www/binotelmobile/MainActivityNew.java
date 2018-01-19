@@ -39,6 +39,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.ScrollView;
@@ -64,6 +67,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import ua.binotel.www.binotelmobile.DB.DatabaseHandler;
 import ua.binotel.www.binotelmobile.dualsim.TelephonyInfo;
@@ -86,6 +91,7 @@ public class MainActivityNew extends AppCompatActivity {
     private static final int CATEGORY_DETAIL = 1;
     private static final int NO_MEMORY_CARD = 2;
     private static final int TERMS = 3;
+    private static final int LOGOUT = 4;
 
     public RadioButton radEnable;
     public RadioButton radDisable;
@@ -104,29 +110,43 @@ public class MainActivityNew extends AppCompatActivity {
 
     DatabaseHandler myDb = new DatabaseHandler(this);
 
+    public static String folder;
 
+    // UI references.
+    public static EditText pinView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
-
-
         setContentView(R.layout.activity_main_new);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         initNavigationDrawer();
-
         listView = (ListView) findViewById(R.id.mylist);
         // mScrollView = (ScrollView) findViewById(R.id.ScrollView01);
         mScrollView2 = (ScrollView) findViewById(R.id.ScrollView02);
         mTextView = (TextView) findViewById(R.id.txtNoRecords);
+
         SharedPreferences settings = this.getSharedPreferences(
                 Constants.LISTEN_ENABLED, 0);
         boolean silentMode = settings.getBoolean("silentMode", true);
 
-        if (silentMode)
-            showDialog(CATEGORY_DETAIL);
+        if (silentMode) {
+            setSharedPreferences(false);
+        }
+
+        SharedPreferences prefs = getSharedPreferences(Constants.LISTEN_ENABLED, MODE_PRIVATE);
+
+        String token = prefs.getString("token", "No token defined");
+        String folderId = prefs.getString("folder", "No folder defined");
+        Boolean isIssetToken = new String(token).equals("No token defined");
+        if (isIssetToken) {
+            goToLoginPage();
+        } else {
+            folder = folderId;
+        }
+//            showDialog(CATEGORY_DETAIL);
 
         context = this.getBaseContext();
 
@@ -160,51 +180,7 @@ public class MainActivityNew extends AppCompatActivity {
 
 
 
-
-//        final TelephonyManagement.TelephonyInfo telephonyInfo;
-
-        String deviceId = tm.getDeviceId();
-
-        String deviceSoftwareVersion = tm.getDeviceSoftwareVersion();
-        String networkOperator = tm.getNetworkOperator();
-        String networkOperatorName = tm.getNetworkOperatorName();
-        String serialNumber = tm.getSimSerialNumber();
-        String phoneNumber = tm.getLine1Number();
-        String simCountry = tm.getSimCountryIso();
-
-        /*Log.w("tag", "getDeviceId: " + deviceId);
-        Log.w("tag", "getDeviceSoftwareVersion: " + deviceSoftwareVersion);
-        Log.w("tag", "getNetworkOperator: " + networkOperator);
-        Log.w("tag", "getNetworkOperatorName: " + networkOperatorName);
-        Log.w("tag", "getSimSerialNumber: " + serialNumber);
-        Log.w("tag", "phoneNumber: " + phoneNumber);
-        Log.w("tag", "getSimCountryIso: " + simCountry);*/
-
-//        telephonyInfo = TelephonyManagement.getInstance().updateTelephonyInfo(context).getTelephonyInfo(context);
-        StringBuffer bufferSim = new StringBuffer();
-        /*String phoneNumberSim1 = TelephonyUtil.getSendNumber(context, telephonyInfo.getOperatorSIM1());
-        String phoneNumberSim2 = TelephonyUtil.getSendNumber(context, telephonyInfo.getOperatorBySlotId(DualsimBase.TYPE_SIM_ASSISTANT));
-
-        bufferSim.append("phoneNumberSim1: " + phoneNumberSim1 + "\n");
-        bufferSim.append("phoneNumberSim2: " + phoneNumberSim2 + "\n");
-        Log.w(Constants.TAG, bufferSim.toString());
-        Toast.makeText(context, "getDeviceId: " + bufferSim.toString(),Toast.LENGTH_SHORT).show();*/
-
-
-
-//        getFileName("s/d/f/3/0/d20180104174432p5433.3gp");
-//        myDb.addCall(new Call("Павло Полуботок", "0965532211", 1515069143, 1515069143));
-//        myDb.addCall(new Call("Alexander", "0965532255", 1515069143, 1515070251));
-
-//        myDb.deleteAll();
-
-//        showCallsFromDB();
-
-
-
     }
-
-
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
@@ -306,7 +282,10 @@ public class MainActivityNew extends AppCompatActivity {
                         drawerLayout.closeDrawers();
                         break;
                     case R.id.logout:
-                        finish();
+                        drawerLayout.closeDrawers();
+//                        showDialog(LOGOUT);
+                        showLogoutDialog();
+                        break;
 
                 }
                 return true;
@@ -314,7 +293,7 @@ public class MainActivityNew extends AppCompatActivity {
         });
         View header = navigationView.getHeaderView(0);
         TextView tv_email = (TextView)header.findViewById(R.id.tv_email);
-        tv_email.setText("raj.amalw@learn2crack.com");
+        tv_email.setText("ps@binotel.com");
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer);
 
         ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.drawer_open,R.string.drawer_close){
@@ -488,12 +467,12 @@ public class MainActivityNew extends AppCompatActivity {
         editor.putBoolean("silentMode", silentMode);
         editor.commit();
 
-        Intent myIntent = new Intent(context, RecordService.class);
+        /*Intent myIntent = new Intent(context, RecordService.class);
         myIntent.putExtra("commandType",
                 silentMode ? Constants.RECORDING_DISABLED
                         : Constants.RECORDING_ENABLED);
         myIntent.putExtra("silentMode", silentMode);
-        context.startService(myIntent);
+        context.startService(myIntent);*/
     }
 
     @Override
@@ -522,6 +501,30 @@ public class MainActivityNew extends AppCompatActivity {
                         });
 
                 return categoryDetail;
+            case LOGOUT:
+                LayoutInflater logout = LayoutInflater.from(this);
+                View logoutView = logout.inflate(
+                        R.layout.logout_dialog_layout, null);
+                AlertDialog.Builder logoutBuilder = new AlertDialog.Builder(
+                        this);
+                logoutBuilder.setTitle(this
+                        .getString(R.string.type_pin));
+                logoutBuilder.setView(logoutView);
+
+                logoutBuilder.setPositiveButton("Logout", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        LayoutInflater logout = LayoutInflater.from(MainActivityNew.this);
+                        View v_iew = logout.inflate(R.layout.logout_dialog_layout, null);
+                        pinView = (EditText) v_iew.findViewById(R.id.pin);
+                        String pin = pinView.getText().toString();
+                        dialog.dismiss();
+                        logoutProcess(pin);
+                    }
+                });
+                AlertDialog logoutDetail = logoutBuilder.create();
+
+                return logoutDetail;
             case NO_MEMORY_CARD:
                 li = LayoutInflater.from(this);
 
@@ -612,6 +615,9 @@ public class MainActivityNew extends AppCompatActivity {
         }
         final StringBuffer jsonRes = new StringBuffer();
 
+        MultipartFormDataBody body = new MultipartFormDataBody();
+        get.setBody(body);
+        body.addStringPart("folderId", folder);
         AsyncHttpClient.getDefaultInstance().executeString(get, new AsyncHttpClient.StringCallback() {
             // Callback is invoked with any exceptions/errors, and the result, if available.
             @Override
@@ -620,13 +626,9 @@ public class MainActivityNew extends AppCompatActivity {
                     e.printStackTrace();
                     return;
                 }
-                System.out.println("I got a string: " + result);
                 String [] strings = new String [] {result};
                 List<String> filesListServer = new ArrayList<String>(Arrays.asList(strings));
-
-
                 for (String item : filesListLocal) {
-
                     if (filesListServer.contains(item.replace(",",""))) {
 //                        duplicatevalues.add(item);
                     } else {
@@ -642,6 +644,7 @@ public class MainActivityNew extends AppCompatActivity {
                     final String md5Str = getMD5(FileHelper.getFilePath() + "/"
                             + Constants.FILE_DIRECTORY + "/" + item);
                     body.addStringPart("md5", md5Str);
+                    body.addStringPart("folderId", folder);
                     AsyncHttpClient.getDefaultInstance().executeString(post, new AsyncHttpClient.StringCallback(){
                         @Override
                         public void onCompleted(Exception ex, AsyncHttpResponse source, String result) {
@@ -771,6 +774,85 @@ public class MainActivityNew extends AppCompatActivity {
 
         }
         return md5Checksum;
+    }
+
+    private void goToLoginPage() {
+        int timeout = 10; // make the activity visible for 4 seconds
+
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+
+            @Override
+            public void run() {
+                finish();
+                Intent loginpage = new Intent(MainActivityNew.this, LoginActivity.class);
+                startActivity(loginpage);
+            }
+        }, timeout);
+    }
+
+    protected void showLogoutDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        // Get the layout inflater
+        LayoutInflater inflater = this.getLayoutInflater();
+
+
+
+        // Inflate and set the layout for the dialog
+        // Pass null as the parent view because its going in the dialog layout
+        builder.setView(inflater.inflate(R.layout.logout_dialog_layout, null))
+                // Add action buttons
+                .setPositiveButton(R.string.logout, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Dialog f = (Dialog) dialog;
+            /* ERROR HERE! */
+                        EditText pin;
+
+                        pin = (EditText) f.findViewById(R.id.pin);
+
+                        String pinStr = pin.getText().toString();
+
+                        Log.i(Constants.TAG, pinStr);
+            /* STOP */
+                        logoutProcess(pinStr);
+
+                    }
+                })
+                .setNegativeButton(R.string.cancel,  new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.dismiss();
+                    }
+                });
+        builder.create().show();
+    }
+
+    private void logoutProcess(String pin) {
+        Log.i(Constants.TAG, "logoutProcess: " + pin.toString());
+        AsyncHttpPost post = new AsyncHttpPost("http://pr-web.com.ua/logout.php");
+        MultipartFormDataBody body = new MultipartFormDataBody();
+        post.setBody(body);
+        body.addStringPart("pin", pin);
+        AsyncHttpClient.getDefaultInstance().executeString(post, new AsyncHttpClient.StringCallback(){
+            @Override
+            public void onCompleted(Exception ex, AsyncHttpResponse source, String result) {
+                if (ex != null) {
+                    ex.printStackTrace();
+                    return;
+                }
+
+                String json = result;
+                Log.w("My App", "JSON: \"" + json + "\"");
+                try {
+
+                    final JSONObject obj = new JSONObject(json);
+                    String status = obj.get("status").toString();
+                } catch (Throwable t) {
+                    Log.w("My App", "Could not parse malformed JSON: \"" + json + "\"");
+                }
+
+
+            }
+        });
     }
 
 }

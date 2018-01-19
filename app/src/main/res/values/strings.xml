@@ -67,5 +67,9 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
     <string name="show_db">Show DB</string>
-    <string name="sims_info">sims info</string>
+    <string name="sims_info">Sims info</string>
+    <string name="type_pin">Type pin for logout</string>
+    <string name="logout">Logout</string>
+    <string name="prompt_pin">Pin (min 6 simbols)</string>
+    <string name="cancel">Cancel</string>
 </resources>

@@ -3,6 +3,9 @@ package ua.binotel.www.binotelmobile;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -46,8 +49,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import static android.Manifest.permission.READ_CONTACTS;
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
 /**
  * A login screen that offers login via email/password.
@@ -86,10 +92,24 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     public String token;
 
+    public static final String MY_PREFS_NAME = "MyPrefsFile";
+
+    private Context context;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        SharedPreferences prefs = getSharedPreferences(Constants.LISTEN_ENABLED, MODE_PRIVATE);
+
+        String token = prefs.getString("token", "No token defined");
+        Boolean isIssetToken = new String(token).equals("No token defined");
+        Log.e(Constants.TAG, token);
+        if (!isIssetToken) {
+
+            goToHomePage();
+        }
 
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
@@ -118,14 +138,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mProgressView = findViewById(R.id.login_progress);
 
 
-
-        /**
-         * Real project code
-         */
-
         Logger.init();
 
-        loginProcess("ps@binotel.com", "123456");
+//        loginProcess("ps@binotel.com", "123456");
 
 
         /*AsyncHttpClient.getDefaultInstance().websocket("wss://ws.binotel.com:9002", "wss", new AsyncHttpClient.WebSocketConnectCallback() {
@@ -449,7 +464,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private void loginProcess(String email, String pass) {
         final StringBuffer res = new StringBuffer();
-        final String message;
+        final SharedPreferences.Editor editor = getSharedPreferences(Constants.LISTEN_ENABLED, MODE_PRIVATE).edit();
         AsyncHttpPost post = new AsyncHttpPost("http://pr-web.com.ua/login.php");
         MultipartFormDataBody body = new MultipartFormDataBody();
         body.addStringPart("email", email);
@@ -471,23 +486,36 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
                     final JSONObject obj = new JSONObject(json);
                     String status = obj.get("status").toString();
-                    if (status == "success") {
-                        token = obj.get("token").toString();
+                    String token = obj.get("token").toString();
+                    String folder = obj.get("folder").toString();
+                    Boolean compare = new String(status).equals("success");
+                    if (compare) {
+                        editor.putString("token", token);
+                        editor.putString("folder", folder);
+                        Log.i(Constants.TAG, token);
+                        editor.apply();
                         res.append("success\n");
-                    } else {
-                        String message = obj.get("message").toString();
-                        res.append(message);
-                        Log.i(Constants.TAG, res.toString());
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
+                                showProgress(false);
+                                goToHomePage();
+                            }
+                        });
+                    } else {
+                        String message = obj.get("message").toString();
+                        res.append(message);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                showProgress(false);
                                 Toast.makeText(getApplicationContext(), res, Toast.LENGTH_LONG).show();
                             }
                         });
                     }
 
 
-                    showProgress(false);
+
                 } catch (Throwable t) {
                     Log.w("My App", "Could not parse malformed JSON: \"" + json + "\"");
                     Log.w("My App", "Could not parse malformed JSON: \"" + t + "\"");
@@ -498,6 +526,21 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
         return;
+    }
+
+    private void goToHomePage() {
+        int timeout = 100; // make the activity visible for 4 seconds
+
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+
+            @Override
+            public void run() {
+                finish();
+                Intent homepage = new Intent(LoginActivity.this, MainActivityNew.class);
+                startActivity(homepage);
+            }
+        }, timeout);
     }
 
 }

@@ -25,7 +25,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <ignored path="Calls from a mobile phone.iws" />
@@ -1017,95 +1016,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="MainActivityNew.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivityNew.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7948">
-              <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+            <state relative-caret-position="380">
+              <caret line="826" column="5" lean-forward="false" selection-start-line="826" selection-start-column="5" selection-end-line="826" selection-end-column="5" />
               <folding>
-                <element signature="e#5011#5012#0" expanded="true" />
-                <element signature="e#5083#5084#0" expanded="true" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="method#onCreateDialog#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#25065#27756#0" expanded="true" />
-                <element signature="e#26656#27710#0" expanded="true" />
-                <element signature="e#27709#27710#0" expanded="true" />
-                <element signature="e#27755#27756#0" expanded="true" />
-                <element signature="e#27767#27796#0" expanded="false" />
+                <element signature="e#9277#10400#0" expanded="true" />
+                <element signature="e#10399#10400#0" expanded="true" />
+                <element signature="method#onPrepareOptionsMenu#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="method#setSharedPreferences#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="e#19225#19296#0" expanded="true" />
+                <element signature="e#20338#20396#0" expanded="true" />
+                <element signature="e#20509#21104#0" expanded="true" />
+                <element signature="e#21103#21104#0" expanded="true" />
+                <element signature="method#onPrepareDialog#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="method#postFile#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="e#25424#28107#0" expanded="true" />
+                <element signature="e#25912#25920#0" expanded="true" />
+                <element signature="e#28106#28107#0" expanded="true" />
+                <element signature="e#28118#28147#0" expanded="false" />
                 <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
                 <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
                 <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
-                <element signature="e#29418#30113#0" expanded="true" />
-                <element signature="e#30112#30113#0" expanded="true" />
+                <element signature="method#getMD5EncryptedString#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="method#getMD5#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="method#goToLoginPage#0;class#MainActivityNew#0" expanded="false" />
+                <element signature="e#31876#32130#0" expanded="true" />
+                <element signature="e#32129#32130#0" expanded="true" />
+                <element signature="e#32640#32655#0" expanded="true" />
+                <element signature="e#32657#33191#0" expanded="true" />
+                <element signature="e#33190#33191#0" expanded="true" />
+                <element signature="e#33228#33243#0" expanded="true" />
+                <element signature="e#33246#33441#0" expanded="true" />
+                <element signature="e#33440#33441#0" expanded="true" />
+                <element signature="e#33877#34576#0" expanded="true" />
+                <element signature="e#34575#34576#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logout_dialog_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/logout_dialog_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <element signature="e#598#618#0" expanded="true" />
+                <element signature="e#704#720#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="37" />
+              <folding>
+                <element signature="e#2257#2282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="471" column="64" lean-forward="false" selection-start-line="471" selection-start-column="64" selection-end-line="471" selection-end-column="64" />
+            <state relative-caret-position="188">
+              <caret line="236" column="55" lean-forward="false" selection-start-line="236" selection-start-column="8" selection-end-line="236" selection-end-column="55" />
               <folding>
-                <element signature="e#3609#3755#0" expanded="true" />
-                <element signature="e#3754#3755#0" expanded="true" />
-                <element signature="method#populateAutoComplete#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#3768#4129#0" expanded="true" />
+                <element signature="e#4128#4129#0" expanded="true" />
+                <element signature="e#4265#4411#0" expanded="true" />
+                <element signature="e#4410#4411#0" expanded="true" />
                 <element signature="method#mayRequestContacts#0;class#LoginActivity#0" expanded="false" />
-                <element signature="e#7730#7770#0" expanded="true" />
-                <element signature="e#7923#7965#0" expanded="true" />
+                <element signature="e#6451#6480#0" expanded="true" />
+                <element signature="e#6562#6884#0" expanded="true" />
+                <element signature="e#6883#6884#0" expanded="true" />
+                <element signature="e#8333#8373#0" expanded="true" />
+                <element signature="e#8526#8568#0" expanded="true" />
+                <element signature="e#8764#8804#0" expanded="true" />
+                <element signature="e#8945#8984#0" expanded="true" />
                 <element signature="method#showProgress#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#10594#10831#0" expanded="true" />
+                <element signature="e#10830#10831#0" expanded="true" />
+                <element signature="e#11025#11261#0" expanded="true" />
+                <element signature="e#11260#11261#0" expanded="true" />
                 <element signature="method#onCreateLoader#0;class#LoginActivity#0" expanded="false" />
                 <element signature="method#onLoadFinished#0;class#LoginActivity#0" expanded="false" />
                 <element signature="method#addEmailsToAutoComplete#0;class#LoginActivity#0" expanded="false" />
                 <element signature="class#ProfileQuery#0;class#LoginActivity#0" expanded="false" />
                 <element signature="class#SetupEmailAutoCompleteTask#0;class#LoginActivity#0" expanded="false" />
                 <element signature="class#UserLoginTask#0;class#LoginActivity#0" expanded="false" />
-                <element signature="e#16264#17841#0" expanded="true" />
-                <element signature="e#17252#17514#0" expanded="true" />
-                <element signature="e#17513#17514#0" expanded="true" />
-                <element signature="e#17840#17841#0" expanded="true" />
-                <marker date="1516289914852" expanded="false" signature="4806:4900" ph="(s) → {" />
-                <marker date="1516289914852" expanded="false" signature="4991:5014" ph="}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyPhoneReceiver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="122" column="29" lean-forward="false" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RecordService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3983">
-              <caret line="235" column="44" lean-forward="false" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="44" />
-              <folding>
-                <element signature="method#startRecording#0;class#RecordService#0" expanded="false" />
-                <element signature="e#9126#9376#0" expanded="true" />
-                <element signature="e#9375#9376#0" expanded="true" />
-                <element signature="e#9477#9724#0" expanded="true" />
-                <element signature="e#9723#9724#0" expanded="true" />
-                <element signature="e#11085#11127#0" expanded="true" />
-                <element signature="method#startService#0;class#RecordService#0" expanded="false" />
-                <element signature="e#11878#11921#0" expanded="true" />
-                <element signature="e#11954#11998#0" expanded="true" />
-                <element signature="e#12036#12078#0" expanded="true" />
-                <element signature="method#postStartTimeToServer#0;class#RecordService#0" expanded="false" />
-                <element signature="e#14688#15043#0" expanded="true" />
-                <element signature="e#15042#15043#0" expanded="true" />
-                <element signature="method#postEndTimeToServer#0;class#RecordService#0" expanded="false" />
-                <element signature="e#15634#15990#0" expanded="true" />
-                <element signature="e#15989#15990#0" expanded="true" />
+                <element signature="e#16143#16187#0" expanded="true" />
+                <element signature="method#loginProcess#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#16954#19126#0" expanded="true" />
+                <element signature="e#18078#18337#0" expanded="true" />
+                <element signature="e#18336#18337#0" expanded="true" />
+                <element signature="e#18524#18839#0" expanded="true" />
+                <element signature="e#18838#18839#0" expanded="true" />
+                <element signature="e#19125#19126#0" expanded="true" />
+                <element signature="method#goToHomePage#0;class#LoginActivity#0" expanded="false" />
+                <element signature="e#19315#19567#0" expanded="true" />
+                <element signature="e#19566#19567#0" expanded="true" />
+                <marker date="1516364998862" expanded="false" signature="5409:5503" ph="(s) → {" />
+                <marker date="1516364998862" expanded="false" signature="5594:5617" ph="}" />
               </folding>
             </state>
           </provider>
@@ -1114,21 +1141,8 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="55" column="50" lean-forward="false" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+            <state relative-caret-position="293">
+              <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -1136,24 +1150,17 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding>
+                <element signature="e#1907#1936#0" expanded="true" />
+                <element signature="e#2440#2469#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
           <provider editor-type-id="android-manifest">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="onRestartReciever.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/onRestartReciever.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -1163,43 +1170,43 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>buffer</find>
-      <find>і</find>
-      <find>іг</find>
-      <find>ігз</find>
-      <find>ігзу</find>
-      <find>ігзук</find>
-      <find>ігзук і</find>
-      <find>ігзук іу</find>
-      <find>ігзук іукм</find>
-      <find>ігзук іук</find>
-      <find>s</find>
-      <find>super s</find>
-      <find>service</find>
-      <find>local storage</find>
-      <find>localstorage</find>
-      <find>locastorage</find>
-      <find>locstorage</find>
-      <find>lostorage</find>
-      <find>lstorage</find>
-      <find>storage</find>
-      <find>UserLoginTask</find>
-      <find>updateExternalStorageState</find>
-      <find>mHandler</find>
-      <find>Handler</find>
       <find>runOnUiThread</find>
       <find>post</find>
       <find>LoginProcess</find>
       <find>jsonRes</find>
       <find>MainActivity</find>
       <find>toast</find>
+      <find>contex</find>
+      <find>W</find>
+      <find>Welcome</find>
+      <find>Welcome</find>
+      <find>Welcome s</find>
+      <find>dialog_welcome_screen</find>
+      <find>showProgress(false);</find>
+      <find>WRITE_EXTERNAL_STORAGE</find>
+      <find>CATEGORY_DETAIL</find>
+      <find>tv_email</find>
+      <find>menu_Enable_record</find>
+      <find>I got a string</find>
+      <find>login</find>
+      <find>get</find>
+      <find>new</find>
+      <find>radio_Enable_record</find>
+      <find>pinView</find>
+      <find>logoutProcess</find>
+      <find>logout</find>
+      <find>LOGOUT</find>
+      <find>LOGOUT)</find>
+      <find>enable</find>
+      <find>folderId</find>
+      <find>butto</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -2805,7 +2812,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/async/BasicAuthMiddleware.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/async/CacheOverrideMiddleware.java" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/ua/binotel/www/binotelmobile/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" />
@@ -2852,10 +2858,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/onRestartReciever.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/logout_dialog_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java" />
       </list>
     </option>
   </component>
@@ -2912,111 +2919,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls-from-a-mobile-phone" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls-from-a-mobile-phone" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls-from-a-mobile-phone" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls-from-a-mobile-phone" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binotelmobile" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calls-from-a-mobile-phone" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3069,7 +2971,112 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calls-from-a-mobile-phone" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3077,7 +3084,7 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="afaacc46" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testRunningServicesBackgroundRelaunched" />
-    <property name="device.picker.selection" value="TCY9KA9660100446" />
+    <property name="device.picker.selection" value="710HVBQR2257M" />
     <property name="android.profiler.active" value="true" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="VectorAssetImportPath" value="$PROJECT_DIR$/.." />
@@ -3176,7 +3183,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516289975616" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516379274673" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3224,7 +3231,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516289975616" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516379274673" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3256,6 +3263,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -3386,7 +3414,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516289975617" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1516379274676" />
       </method>
     </configuration>
     <list size="1">
@@ -3485,11 +3513,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1922" height="1061" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18945102" sideWeight="0.5064695" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5043057" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4566929" sideWeight="0.49515608" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4566929" sideWeight="0.5064586" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39932507" sideWeight="0.49354145" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3503,7 +3532,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32620922" sideWeight="0.4956943" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.4956943" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.4956943" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46352413" sideWeight="0.5026911" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18945102" sideWeight="0.4935305" order="0" side_tool="false" content_ui="combo" />
@@ -3541,51 +3570,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/java/lang/Comparable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/rowlayout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/content/Context.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="341" column="46" lean-forward="false" selection-start-line="341" selection-start-column="34" selection-end-line="341" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.2.1/1af6c988cb07bcd8c086c4f5dbc48aa625316aa6/androidasync-2.2.1-sources.jar!/com/koushikdutta/async/http/AsyncHttpPost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -3636,14 +3620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -3666,25 +3642,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/GetMD5ForFile.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/info.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/SamsungDualSim.java" />
@@ -3719,13 +3685,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_new.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/dualsim/DualsimBase.java" />
@@ -3768,13 +3734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/content/Intent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="151" column="31" lean-forward="false" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/DB/Call.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -3802,31 +3761,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/RecordService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3983">
+        <state relative-caret-position="4692">
           <caret line="235" column="44" lean-forward="false" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="44" />
           <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1660#1661#0" expanded="false" />
+            <element signature="e#1687#1688#0" expanded="false" />
             <element signature="method#startRecording#0;class#RecordService#0" expanded="false" />
-            <element signature="e#9126#9376#0" expanded="true" />
-            <element signature="e#9375#9376#0" expanded="true" />
-            <element signature="e#9477#9724#0" expanded="true" />
-            <element signature="e#9723#9724#0" expanded="true" />
-            <element signature="e#11085#11127#0" expanded="true" />
             <element signature="method#startService#0;class#RecordService#0" expanded="false" />
-            <element signature="e#11878#11921#0" expanded="true" />
-            <element signature="e#11954#11998#0" expanded="true" />
-            <element signature="e#12036#12078#0" expanded="true" />
             <element signature="method#postStartTimeToServer#0;class#RecordService#0" expanded="false" />
-            <element signature="e#14688#15043#0" expanded="true" />
-            <element signature="e#15042#15043#0" expanded="true" />
             <element signature="method#postEndTimeToServer#0;class#RecordService#0" expanded="false" />
-            <element signature="e#15634#15990#0" expanded="true" />
-            <element signature="e#15989#15990#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3841,39 +3793,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/content/Intent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="55" column="50" lean-forward="false" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
+        <state relative-caret-position="151">
+          <caret line="326" column="11" lean-forward="false" selection-start-line="326" selection-start-column="11" selection-end-line="326" selection-end-column="11" />
+          <folding>
+            <element signature="e#25167#25168#0" expanded="true" />
+            <element signature="e#25218#25219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/content/Context.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="89" column="28" lean-forward="false" selection-start-line="89" selection-start-column="28" selection-end-line="89" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="138">
+          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MyPhoneReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="23">
           <caret line="122" column="29" lean-forward="false" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3881,53 +3830,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7948">
-          <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+        <state relative-caret-position="503">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
-            <element signature="e#5011#5012#0" expanded="true" />
-            <element signature="e#5083#5084#0" expanded="true" />
-            <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="method#onCreateDialog#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#25065#27756#0" expanded="true" />
-            <element signature="e#26656#27710#0" expanded="true" />
-            <element signature="e#27709#27710#0" expanded="true" />
-            <element signature="e#27755#27756#0" expanded="true" />
-            <element signature="e#27767#27796#0" expanded="false" />
-            <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
-            <element signature="e#29418#30113#0" expanded="true" />
-            <element signature="e#30112#30113#0" expanded="true" />
+            <element signature="e#1907#1936#0" expanded="true" />
+            <element signature="e#2440#2469#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#2257#2282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/Sdk/platforms/android-24/android.jar!/android/widget/CompoundButton.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/startup_dialog_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/ua/binotel/www/binotelmobile/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="2936" column="28" lean-forward="false" selection-start-line="2936" selection-start-column="28" selection-end-line="2936" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/logout_dialog_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#598#618#0" expanded="true" />
+            <element signature="e#704#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="471" column="64" lean-forward="false" selection-start-line="471" selection-start-column="64" selection-end-line="471" selection-end-column="64" />
+        <state relative-caret-position="188">
+          <caret line="236" column="55" lean-forward="false" selection-start-line="236" selection-start-column="8" selection-end-line="236" selection-end-column="55" />
           <folding>
-            <element signature="e#3609#3755#0" expanded="true" />
-            <element signature="e#3754#3755#0" expanded="true" />
-            <element signature="method#populateAutoComplete#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#3768#4129#0" expanded="true" />
+            <element signature="e#4128#4129#0" expanded="true" />
+            <element signature="e#4265#4411#0" expanded="true" />
+            <element signature="e#4410#4411#0" expanded="true" />
             <element signature="method#mayRequestContacts#0;class#LoginActivity#0" expanded="false" />
-            <element signature="e#7730#7770#0" expanded="true" />
-            <element signature="e#7923#7965#0" expanded="true" />
+            <element signature="e#6451#6480#0" expanded="true" />
+            <element signature="e#6562#6884#0" expanded="true" />
+            <element signature="e#6883#6884#0" expanded="true" />
+            <element signature="e#8333#8373#0" expanded="true" />
+            <element signature="e#8526#8568#0" expanded="true" />
+            <element signature="e#8764#8804#0" expanded="true" />
+            <element signature="e#8945#8984#0" expanded="true" />
             <element signature="method#showProgress#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#10594#10831#0" expanded="true" />
+            <element signature="e#10830#10831#0" expanded="true" />
+            <element signature="e#11025#11261#0" expanded="true" />
+            <element signature="e#11260#11261#0" expanded="true" />
             <element signature="method#onCreateLoader#0;class#LoginActivity#0" expanded="false" />
             <element signature="method#onLoadFinished#0;class#LoginActivity#0" expanded="false" />
             <element signature="method#addEmailsToAutoComplete#0;class#LoginActivity#0" expanded="false" />
             <element signature="class#ProfileQuery#0;class#LoginActivity#0" expanded="false" />
             <element signature="class#SetupEmailAutoCompleteTask#0;class#LoginActivity#0" expanded="false" />
             <element signature="class#UserLoginTask#0;class#LoginActivity#0" expanded="false" />
-            <element signature="e#16264#17841#0" expanded="true" />
-            <element signature="e#17252#17514#0" expanded="true" />
-            <element signature="e#17513#17514#0" expanded="true" />
-            <element signature="e#17840#17841#0" expanded="true" />
-            <marker date="1516289914852" expanded="false" signature="4806:4900" ph="(s) → {" />
-            <marker date="1516289914852" expanded="false" signature="4991:5014" ph="}" />
+            <element signature="e#16143#16187#0" expanded="true" />
+            <element signature="method#loginProcess#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#16954#19126#0" expanded="true" />
+            <element signature="e#18078#18337#0" expanded="true" />
+            <element signature="e#18336#18337#0" expanded="true" />
+            <element signature="e#18524#18839#0" expanded="true" />
+            <element signature="e#18838#18839#0" expanded="true" />
+            <element signature="e#19125#19126#0" expanded="true" />
+            <element signature="method#goToHomePage#0;class#LoginActivity#0" expanded="false" />
+            <element signature="e#19315#19567#0" expanded="true" />
+            <element signature="e#19566#19567#0" expanded="true" />
+            <marker date="1516364998862" expanded="false" signature="5409:5503" ph="(s) → {" />
+            <marker date="1516364998862" expanded="false" signature="5594:5617" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ua/binotel/www/binotelmobile/MainActivityNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="826" column="5" lean-forward="false" selection-start-line="826" selection-start-column="5" selection-end-line="826" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initNavigationDrawer#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#9277#10400#0" expanded="true" />
+            <element signature="e#10399#10400#0" expanded="true" />
+            <element signature="method#onPrepareOptionsMenu#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#setSharedPreferences#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#19225#19296#0" expanded="true" />
+            <element signature="e#20338#20396#0" expanded="true" />
+            <element signature="e#20509#21104#0" expanded="true" />
+            <element signature="e#21103#21104#0" expanded="true" />
+            <element signature="method#onPrepareDialog#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#postFile#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#25424#28107#0" expanded="true" />
+            <element signature="e#25912#25920#0" expanded="true" />
+            <element signature="e#28106#28107#0" expanded="true" />
+            <element signature="e#28118#28147#0" expanded="false" />
+            <element signature="method#showCallsFromDB#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#showMessage#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#getFileName#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#getMD5EncryptedString#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#getMD5#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="method#goToLoginPage#0;class#MainActivityNew#0" expanded="false" />
+            <element signature="e#31876#32130#0" expanded="true" />
+            <element signature="e#32129#32130#0" expanded="true" />
+            <element signature="e#32640#32655#0" expanded="true" />
+            <element signature="e#32657#33191#0" expanded="true" />
+            <element signature="e#33190#33191#0" expanded="true" />
+            <element signature="e#33228#33243#0" expanded="true" />
+            <element signature="e#33246#33441#0" expanded="true" />
+            <element signature="e#33440#33441#0" expanded="true" />
+            <element signature="e#33877#34576#0" expanded="true" />
+            <element signature="e#34575#34576#0" expanded="true" />
           </folding>
         </state>
       </provider>

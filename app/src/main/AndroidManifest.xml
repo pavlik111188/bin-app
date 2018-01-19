@@ -33,7 +33,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivityNew"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -45,6 +45,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+
         </activity>
 
         <provider
@@ -91,9 +98,8 @@
             android:name=".TermsActivity"
             android:label="@string/title_activity_main" />
 
-        <activity
-            android:name=".MainActivityNew"
-            android:label="@string/title_activity_main" />
+
+
         <receiver android:name=".onRestartReciever">
         <intent-filter>
             <action android:name="android.intent.action.PACKAGE_REPLACED" />
