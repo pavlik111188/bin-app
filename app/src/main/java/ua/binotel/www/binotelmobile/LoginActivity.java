@@ -492,7 +492,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     if (compare) {
                         editor.putString("token", token);
                         editor.putString("folder", folder);
-                        Log.i(Constants.TAG, token);
                         editor.apply();
                         res.append("success\n");
                         runOnUiThread(new Runnable() {

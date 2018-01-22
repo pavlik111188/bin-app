@@ -141,6 +141,7 @@ public class MainActivityNew extends AppCompatActivity {
         String token = prefs.getString("token", "No token defined");
         String folderId = prefs.getString("folder", "No folder defined");
         Boolean isIssetToken = new String(token).equals("No token defined");
+        Log.w("My App", token.toString());
         if (isIssetToken) {
             goToLoginPage();
         } else {
@@ -827,6 +828,7 @@ public class MainActivityNew extends AppCompatActivity {
     }
 
     private void logoutProcess(String pin) {
+        final SharedPreferences.Editor editor = getSharedPreferences(Constants.LISTEN_ENABLED, MODE_PRIVATE).edit();
         Log.i(Constants.TAG, "logoutProcess: " + pin.toString());
         AsyncHttpPost post = new AsyncHttpPost("http://pr-web.com.ua/logout.php");
         MultipartFormDataBody body = new MultipartFormDataBody();
@@ -846,10 +848,29 @@ public class MainActivityNew extends AppCompatActivity {
 
                     final JSONObject obj = new JSONObject(json);
                     String status = obj.get("status").toString();
+                    Boolean isSuccess = new String(status).equals("success");
+                    if (isSuccess) {
+                        editor.putString("token", "No token defined");
+                        editor.putString("folder", "");
+                        editor.apply();
+                        MainActivityNew.this.runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                goToLoginPage();
+                            }
+                        });
+                    } else {
+                        MainActivityNew.this.runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                //Handle UI here
+                                Toast.makeText(getApplicationContext(), getString(R.string.incorrect_pin), Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
                 } catch (Throwable t) {
                     Log.w("My App", "Could not parse malformed JSON: \"" + json + "\"");
                 }
-
 
             }
         });

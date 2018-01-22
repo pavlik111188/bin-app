@@ -72,4 +72,6 @@
     <string name="logout">Logout</string>
     <string name="prompt_pin">Pin (min 6 simbols)</string>
     <string name="cancel">Cancel</string>
+    <string name="incorrect_pin">Incorrect pin</string>
+    <string name="success">Success</string>
 </resources>
