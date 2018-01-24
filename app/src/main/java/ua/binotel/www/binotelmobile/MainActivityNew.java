@@ -48,11 +48,15 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.JsonElement;
 import com.koushikdutta.async.http.AsyncHttpClient;
 import com.koushikdutta.async.http.AsyncHttpGet;
 import com.koushikdutta.async.http.AsyncHttpPost;
 import com.koushikdutta.async.http.AsyncHttpResponse;
 import com.koushikdutta.async.http.body.MultipartFormDataBody;
+import com.koushikdutta.async.http.body.Part;
+import com.squareup.okhttp.MediaType;
+import com.squareup.okhttp.RequestBody;
 
 import org.json.JSONObject;
 
@@ -117,6 +121,7 @@ public class MainActivityNew extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         TelephonyManager tm = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
         setContentView(R.layout.activity_main_new);
@@ -178,7 +183,6 @@ public class MainActivityNew extends AppCompatActivity {
 
             Toast.makeText(context, "getDeviceId: " + getDeviceId,Toast.LENGTH_SHORT).show();*/
         }
-
 
 
     }
@@ -627,6 +631,7 @@ public class MainActivityNew extends AppCompatActivity {
                     e.printStackTrace();
                     return;
                 }
+
                 String [] strings = new String [] {result};
                 List<String> filesListServer = new ArrayList<String>(Arrays.asList(strings));
                 for (String item : filesListLocal) {
@@ -829,11 +834,24 @@ public class MainActivityNew extends AppCompatActivity {
 
     private void logoutProcess(String pin) {
         final SharedPreferences.Editor editor = getSharedPreferences(Constants.LISTEN_ENABLED, MODE_PRIVATE).edit();
-        Log.i(Constants.TAG, "logoutProcess: " + pin.toString());
+        ArrayList<Part> mParts;
         AsyncHttpPost post = new AsyncHttpPost("http://pr-web.com.ua/logout.php");
         MultipartFormDataBody body = new MultipartFormDataBody();
-        post.setBody(body);
         body.addStringPart("pin", pin);
+        post.setBody(body);
+
+//        body.setContentType("application/json");
+        /*AsyncHttpClient.getDefaultInstance().executeJSONObject(post, new AsyncHttpClient.JSONObjectCallback() {
+            @Override
+            public void onCompleted(Exception e, AsyncHttpResponse source, JSONObject result) {
+                if (e != null) {
+                    e.printStackTrace();
+                    return;
+                }
+                System.out.println("I got a JSONObject: " + result);
+
+            }
+        });*/
         AsyncHttpClient.getDefaultInstance().executeString(post, new AsyncHttpClient.StringCallback(){
             @Override
             public void onCompleted(Exception ex, AsyncHttpResponse source, String result) {
@@ -876,4 +894,9 @@ public class MainActivityNew extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStop() {
+        Log.w("My App", "Stoped!!!");
+        super.onStop();
+    }
 }

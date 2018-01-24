@@ -60,16 +60,12 @@ public class RecordService extends Service {
         super.onCreate();
         ConnectivityManager connectionManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         wifiCheck = connectionManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-        /*Toast toast = Toast.makeText(this,
-                "Super service!!!",
-                Toast.LENGTH_LONG);
-        toast.show();*/
-        MainActivityNew.postFile();
+//        MainActivityNew.postFile();
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i(TAG, "RecordService onStartCommand");
-        MainActivityNew.postFile();
+
         myPhone = intent.getStringExtra("phoneNumber");
         if (intent != null) {
             int commandType = intent.getIntExtra("commandType", 0);
@@ -212,6 +208,7 @@ public class RecordService extends Service {
                     this.getString(R.string.receiver_end_call),
                     Toast.LENGTH_SHORT);
             toast.show();*/
+            MainActivityNew.postFile();
         }
     }
 

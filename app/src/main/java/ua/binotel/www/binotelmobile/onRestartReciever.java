@@ -11,6 +11,8 @@ public class onRestartReciever extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+
+
         // TODO Auto-generated method stub
         // Register Services
 //        registerServices(context);

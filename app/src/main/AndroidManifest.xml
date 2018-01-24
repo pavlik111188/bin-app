@@ -21,6 +21,8 @@
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <!-- ? -->
     <application
@@ -64,8 +66,12 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <receiver android:name=".MyPhoneReceiver">
-            <intent-filter>
+        <receiver
+            android:name=".MyPhoneReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:priority="0">
+            <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.PHONE_STATE" />
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
                 <!--<action android:name="android.intent.action.PACKAGE_REPLACED" />
@@ -84,15 +90,14 @@
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-                <!--
-                <action android:name="android.intent.action.PHONE_STATE" />
-                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />-->
             </intent-filter>
         </receiver>
 
         <service
             android:name=".RecordService"
-            android:enabled="true"/>
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote"/>
 
         <activity
             android:name=".TermsActivity"
@@ -104,6 +109,7 @@
         <intent-filter>
             <action android:name="android.intent.action.PACKAGE_REPLACED" />
             <action android:name="android.intent.action.PACKAGE_RESTARTED" />
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
             <data android:scheme="package" android:path="ua.binotel.www.binotelmobile" />
         </intent-filter>
         </receiver>
