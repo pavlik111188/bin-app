@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.BitmapFactory;
 import android.media.MediaRecorder;
 import android.media.MediaRecorder.OnErrorListener;
@@ -49,6 +50,8 @@ public class RecordService extends Service {
 
     private boolean isStart = false;
 
+    private boolean isLogged = false;
+
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -61,15 +64,26 @@ public class RecordService extends Service {
         ConnectivityManager connectionManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         wifiCheck = connectionManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
 //        MainActivityNew.postFile();
+
     }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.i(TAG, "RecordService onStartCommand");
 
+        SharedPreferences prefs = getSharedPreferences(Constants.LISTEN_ENABLED, MODE_PRIVATE);
+
+        String token = prefs.getString("token", "No token defined");
+        Boolean isIssetToken = new String(token).equals("No token defined");
+        Log.e(Constants.TAG, "Service: " + token);
+        if (!isIssetToken) {
+
+            isLogged = true;
+        }
+
         myPhone = intent.getStringExtra("phoneNumber");
         if (intent != null) {
             int commandType = intent.getIntExtra("commandType", 0);
-            if (commandType != 0) {
+            if (commandType != 0 && isLogged) {
                 if (commandType == Constants.RECORDING_ENABLED) {
                     Log.d(TAG, "RecordService RECORDING_ENABLED");
                     silentMode = intent.getBooleanExtra("silentMode", true);

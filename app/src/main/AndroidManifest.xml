@@ -67,11 +67,8 @@
         </provider>
 
         <receiver
-            android:name=".MyPhoneReceiver"
-            android:enabled="true"
-            android:exported="true"
-            android:priority="0">
-            <intent-filter android:priority="1000">
+            android:name=".MyPhoneReceiver">
+            <intent-filter>
                 <action android:name="android.intent.action.PHONE_STATE" />
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
                 <!--<action android:name="android.intent.action.PACKAGE_REPLACED" />
@@ -94,25 +91,11 @@
         </receiver>
 
         <service
-            android:name=".RecordService"
-            android:enabled="true"
-            android:exported="false"
-            android:process=":remote"/>
+            android:name=".RecordService" />
 
         <activity
             android:name=".TermsActivity"
             android:label="@string/title_activity_main" />
-
-
-
-        <receiver android:name=".onRestartReciever">
-        <intent-filter>
-            <action android:name="android.intent.action.PACKAGE_REPLACED" />
-            <action android:name="android.intent.action.PACKAGE_RESTARTED" />
-            <action android:name="android.intent.action.BOOT_COMPLETED" />
-            <data android:scheme="package" android:path="ua.binotel.www.binotelmobile" />
-        </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
