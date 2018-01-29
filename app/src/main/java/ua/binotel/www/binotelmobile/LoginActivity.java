@@ -143,28 +143,28 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 //        loginProcess("ps@binotel.com", "123456");
 
 
-        /*AsyncHttpClient.getDefaultInstance().websocket("wss://ws.binotel.com:9002", "wss", new AsyncHttpClient.WebSocketConnectCallback() {
+        AsyncHttpClient.getDefaultInstance().websocket("wss://ws.binotel.com:9002", "wss", new AsyncHttpClient.WebSocketConnectCallback() {
             @Override
             public void onCompleted(Exception ex, WebSocket webSocket) {
                 //this.webSocket = webSocket;
 
                 if (ex != null) {
                     ex.printStackTrace();
-                    Logger.d("WebSocket %s", "Failed");
+                    Logger.e("WebSocket %s", "Failed");
                     return;
                 }
 
-                Logger.d("WebSocket %s", "Connected");
+                Logger.e("WebSocket %s", "Connected");
 
                 webSocket.send("{ \"task\": \"authLikeEmployee\", \"username\": \"roop@binotel.ua\", \"sessionMask\": \"8475c08bf6f11add5d39306c2d840c158e634d5c610728670f4561dcb1b29b31\", \"userAgent\": \"BinotelChromeExtension\" }");
 
                 webSocket.setStringCallback(new WebSocket.StringCallback() {
                     public void onStringAvailable(String s) {
-                        Logger.d("WebSocket %s", "I got a string: " + s);
+                        Logger.e("WebSocket %s", "I got a string: " + s);
                     }
                 });
             }
-        });*/
+        });
 
 
     }
